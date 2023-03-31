@@ -83,7 +83,7 @@
                 "artist",
                 "sorttitle"
             ],
-            "label": "Songs",
+            "label": "Songbook -",
             "line": "%{artist|%{} - }%{title}",
             "pageno": "%{page}",
             "fold": false,
