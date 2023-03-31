@@ -2,6 +2,11 @@
 
 Collection of songs in chordpro format.
 
+## Books
+
+- [Guitar](./books/guitar.pdf)
+- [Ukulele](./books/ukulele.pdf)
+
 ## Dependencies
 
 - make
