@@ -1,0 +1,11 @@
+{
+  "include": ["ukulele", "settings.json", "fonts.json"],
+  "instrument": { "type": "Ukulele", "description": "Standard Tuning" },
+  "chords": [
+    {
+      "name": "F#m",
+      "base": 0,
+      "frets": [2, 1, 2, 0]
+    }
+  ]
+}

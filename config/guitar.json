@@ -1,0 +1,4 @@
+{
+  "include": ["guitar", "settings.json", "fonts.json"],
+  "instrument": { "type": "Guitar", "description": "Standard Tuning" }
+}

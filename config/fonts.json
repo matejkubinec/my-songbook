@@ -1,0 +1,30 @@
+{
+  "pdf": {
+    "fontdir": "/wd/fonts",
+    "fontconfig": {
+      "serif": {
+        ".": "IBMPlexSerif-Regular.ttf",
+        "bold": "IBMPlexSerif-Bold.ttf"
+      }
+    },
+    "fonts": {
+      "title": { "description": "serif bold 14" },
+      "text": { "description": "serif 10" },
+      "chord": { "description": "serif bold 9" },
+      "chordfingers": {
+        "file": "ChordProSymbols.ttf",
+        "numbercolor": "background"
+      },
+      "comment": {
+        "description": "serif",
+        "size": 12,
+        "background": "foreground-light"
+      },
+      "comment_italic": { "description": "serif", "size": 12 },
+      "comment_box": { "description": "serif", "size": 12, "frame": 1 },
+      "tab": { "description": "serif", "size": 10 },
+      "toc": { "description": "serif", "size": 11 },
+      "grid": { "description": "serif", "size": 10 }
+    }
+  }
+}

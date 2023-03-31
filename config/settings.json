@@ -1,0 +1,115 @@
+{
+    "settings": {
+        "columns": 2
+    },
+    "notes": {
+        "system": "german",
+        "sharp": [
+            "C",
+            [
+                "C#",
+                "Cis",
+                "Câ™¯"
+            ],
+            "D",
+            [
+                "D#",
+                "Dis",
+                "Dâ™¯"
+            ],
+            "E",
+            "F",
+            [
+                "F#",
+                "Fis",
+                "Fâ™¯"
+            ],
+            "G",
+            [
+                "G#",
+                "Gis",
+                "Gâ™¯"
+            ],
+            "A",
+            [
+                "A#",
+                "Ais",
+                "Aâ™¯"
+            ],
+            "H"
+        ],
+        "flat": [
+            "C",
+            [
+                "Db",
+                "Des",
+                "Dâ™­"
+            ],
+            "D",
+            [
+                "Eb",
+                "Es",
+                "Ees",
+                "Eâ™­"
+            ],
+            "E",
+            "F",
+            [
+                "Gb",
+                "Ges",
+                "Gâ™­"
+            ],
+            "G",
+            [
+                "Ab",
+                "As",
+                "Aes",
+                "Aâ™­"
+            ],
+            "A",
+            [
+                "B"
+            ],
+            "H"
+        ]
+    },
+    "user": {
+        "name": "Matej",
+        "fullname": "Matej Kubinec"
+    },
+    "contents": [
+        {
+            "fields": [
+                "artist",
+                "sorttitle"
+            ],
+            "label": "Songs",
+            "line": "%{artist|%{} - }%{title}",
+            "pageno": "%{page}",
+            "fold": false,
+            "omit": false
+        }
+    ],
+    "pdf": {
+        "info": {
+            "author": "Matej Kubinec"
+        },
+        "diagrams": {
+            "show": "right"
+        },
+        "even-odd-pages": 0,
+        "pagealign-songs": 0,
+        "spacing": {
+            "chords": 1.2
+        },
+        "formats": {
+            "title": {
+                "title": [
+                    "",
+                    "%{artist} - %{title}",
+                    ""
+                ]
+            }
+        }
+    }
+}
