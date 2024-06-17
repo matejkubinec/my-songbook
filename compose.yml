@@ -1,0 +1,22 @@
+services:
+  guitar:
+    container_name: guitar
+    image: matejkubinec/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/guitar.json
+      - --output=books/guitar.pdf
+
+  # ukulele:
+  #   container_name: ukulele
+  #   image: matejkubinec/chordpro
+  #   working_dir: /workspace
+  #   volumes:
+  #     - .:/workspace
+  #   command:
+  #     - --filelist=list.txt
+  #     - --config=./config/ukulele.json
+  #     - --output=books/ukulele.pdf

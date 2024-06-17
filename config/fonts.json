@@ -1,6 +1,6 @@
 {
   "pdf": {
-    "fontdir": "/wd/fonts",
+    "fontdir": "/workspace/fonts",
     "fontconfig": {
       "serif": {
         ".": "IBMPlexSerif-Regular.ttf",
