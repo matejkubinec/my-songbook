@@ -1,0 +1,17 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "chordpro",
+      "type": "shell",
+      "command": "docker run -v \"${workspaceFolder}:/workspace\" -w /workspace matejkubinec/chordpro \"${relativeFile}\" --config=./config/guitar.json | open -f -a Preview",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
