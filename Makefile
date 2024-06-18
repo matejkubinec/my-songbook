@@ -4,7 +4,7 @@ create:
 	docker-compose up --remove-orphans
 
 list:
-	find . -name "*.cho" > list.txt
+	find songs -name "*.cho" | grep -v "(WIP)" | sort > list.txt
 
 clean:
 	docker-compose rm -f

@@ -1,0 +1,13 @@
+{
+  "include": ["settings.json", "fonts.json"],
+  "instrument": { "type": "Bass", "description": "Standard Tuning" },
+  "diagrams": {
+    "show": "false"
+  },
+  "formats": {
+    "title": {
+      "title": ["", "%{artist} - %{title}", ""],
+      "subtitle": ["", "", ""]
+    }
+  }
+}

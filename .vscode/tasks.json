@@ -6,7 +6,7 @@
     {
       "label": "chordpro",
       "type": "shell",
-      "command": "docker run -v \"${workspaceFolder}:/workspace\" -w /workspace matejkubinec/chordpro \"${relativeFile}\" --config=./config/guitar.json | open -f -a Preview",
+      "command": "docker run -v \"${workspaceFolder}:/workspace\" -w /workspace matejkubinec/chordpro \"${relativeFile}\" --config=./config/guitar.json --transcode=custom | open -f -a Preview",
       "problemMatcher": [],
       "group": {
         "kind": "build",

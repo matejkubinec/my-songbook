@@ -6,17 +6,32 @@ services:
     volumes:
       - .:/workspace
     command:
+      - --transcode=custom
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/guitar.json
       - --output=books/guitar.pdf
 
-  # ukulele:
-  #   container_name: ukulele
-  #   image: matejkubinec/chordpro
-  #   working_dir: /workspace
-  #   volumes:
-  #     - .:/workspace
-  #   command:
-  #     - --filelist=list.txt
-  #     - --config=./config/ukulele.json
-  #     - --output=books/ukulele.pdf
+  ukulele:
+    container_name: ukulele
+    image: matejkubinec/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - --transcode=custom
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/ukulele.json
+      - --output=books/ukulele.pdf
+
+  bass:
+    container_name: bass
+    image: matejkubinec/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - --transcode=custom
+      - --decapo
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/bass.json
+      - --output=books/bass.pdf
