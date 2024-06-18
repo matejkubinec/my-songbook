@@ -1,11 +1,11 @@
 {title: S tebou kráčať}
 {artist: Monika Ližbetin}
 
-{start_of_intro: Intro}
-[A] [D] [A] [D]
-{end_of_intro}
+{start_of_grid 4x4: I:}
+| A | D | A | D |
+{end_of_grid}
 
-{start_of_verse: Sloha}
+{start_of_verse: S1:}
 [A]           [D]        [A]     [D]       [A]        [D]       [E4] [E]
 Dávno je preč chvíľa, čo zmenila môj svet, keď klakol si na kolená.
 [A]           [D]        [A]     [D]    [A]    [D]       [E4] [E]
@@ -14,7 +14,7 @@ Dávno je preč chvíľa, čo zmenila môj svet, keď klakol si na kolená.
 Možno nevieš, splnil si mi sen a ja nikdy moju voľbu neoľutujem...
 {end_of_verse}
 
-{start_of_chorus: Refrén}
+{start_of_chorus: R:}
      [A]   [D]            [A]    [D]
 Teba láska pri sebe chcem naveky mať.
 [A]           [D]           [E4]  [E]
@@ -25,7 +25,7 @@ Teba láska celý živoť obetovať.
 Spoločne smútiť, smiať sa túžiť, navzájom sa darovať.
 {end_of_chorus}
 
-{start_of_verse: Sloha}
+{start_of_verse: S2:}
 [A]           [D]        [A]     [D]       [A]        [D]       [E4] [E]
 Dávno je preč chvíľa, čo zmenila môj svet, keď triasli sa mi kolená.
 [A]           [D]        [A]     [D]    [A]    [D]       [E4] [E]
@@ -35,9 +35,13 @@ Možno nevieš, splnila si sen a ja nikdy moju voľbu neoľutujem.
 {end_of_verse}
 
 {start_of_chorus: R:}
+Teba láska pri sebe chcem naveky mať.
+Jednou cestou spolu s tebou kráčať.
+Teba láska celý živoť obetovať.
+Spoločne smútiť, smiať sa túžiť, navzájom sa darovať.
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_bridge: B:}
               [F#m]        [C#m]               [D]                  [A]
 Chcem s tebou rátať kroky, čo ma vedú v diaľ a neobzerať sa viac za seba.
               [F#m]           [C#m]                   [D]      [E4]   [E]
@@ -45,4 +49,8 @@ Chcem s tebou kráčať, kde nebola som doposiaľ. Keď sa máme nič nám netre
 {end_of_bridge}
 
 {start_of_chorus: R:}
+Teba láska pri sebe chcem naveky mať.
+Jednou cestou spolu s tebou kráčať.
+Teba láska celý živoť obetovať.
+Spoločne smútiť, smiať sa túžiť, navzájom sa darovať.
 {end_of_chorus}

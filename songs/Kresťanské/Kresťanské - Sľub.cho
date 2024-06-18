@@ -1,10 +1,10 @@
 {title: Sľub}
 {artist: Kresťanské}
 
-{start_of_intro: Intro}
-[G]  [Em7]  [C9]  [D]  [G]
-[G]  [Em7]  [C9]  [D]  [G]
-{end_of_intro}
+{start_of_grid 15: I:}
+| G | Em7 | C9 | D | G |
+| G | Em7 | C9 | D | G |
+{end_of_grid}
 
 {start_of_verse}
 [G]                     [C9]        [D]
@@ -13,7 +13,7 @@ V šťastí aj v nešťastí, aj v zdraví aj v chorobe,
 pod slnkom aj v daždi, pri ľudskej dobrote aj zlobe...
 {end_of_verse}
 
-{start_of_chorus: Refrén}
+{start_of_chorus: R:}
 [G]                      [Em7]                [C9]  [D]    [G]
 Prosím, nech viem ľúbiť, nech viem ctiť, nech viem, ako mať rád.
 [G]                      [Em7]     [C9] [D]   [G] [Em7]  [C9]  [D]  [G]
@@ -27,7 +27,7 @@ Po všetky dni života, kým nás smrť nerozdelí,
 nech nás Boh požehná, nech naše srdcia stmelí...
 {end_of_verse}
 
-{start_of_chorus: Refrén}
+{start_of_chorus: R:}
 [G]                      [Em7]                [C9]  [D]    [G]
 Prosím, nech viem ľúbiť, nech viem ctiť, nech viem, ako mať rád.
 [G]                      [Em7]     [C9] [D]   [C9]
@@ -41,9 +41,9 @@ Vravím vám, nebojím sa a každé ráno, keď zobudím sa,
 budem volať, nech nám Pán Boh lásku požehná...
 {end_of_bridge}
 
-{start_of_chorus: Refrén}
+{start_of_chorus: R:}
 [G]                      [Em7]       [C9]  [D]        [G]
 (: S tebou | viem ľúbiť, budem ctiť, budem navždy mať rád
-[G]                      [Em7]       [C9]  [D]    [G/C9] [G]
+[G]                      [Em7]       [C9]  [D]        [G]
 a chcem sa sľubiť, byť mu oporou jeho pevný hrad. :)
 {end_of_chorus}

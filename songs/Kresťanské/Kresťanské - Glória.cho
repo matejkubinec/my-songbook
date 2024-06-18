@@ -1,11 +1,11 @@
 {title: Glória}
 {artist: Kresťanské}
 
-{start_of_intro: Nástup}
-[E] [B] [A]
-{end_of_intro}
+{start_of_grid 4x4: Nástup}
+| E | B | A |
+{end_of_grid}
 
-{start_of_chorus:R:}
+{start_of_chorus: R:}
        [E] [B] [C#m]   [A]              [E] [B] [A]
 (: Glória, in excelsis Deo :) 3x / Glória... 1x
 {end_of_chorus}
@@ -21,7 +21,7 @@ Chválime ťa, velebíme ťa,
 klaniame sa ti, oslavujeme Ťa,
 [E]         [B]        [C#m] [A] [C#m] [B]   [A]
 Vzdávame Ti vďaky, lebo veľká je sláva Tvoja Pane.
-      [E][B][C#m][A]         [C#mi] [B] [A]
+      [E][B][C#m][A]         [C#m] [B] [A]
 Bože, Kráľ nebeský, Boh Otec všemohúci.
 {end_of_verse}
 
