@@ -1,5 +1,6 @@
 {title: Baránok Boží}
 {artist: Kresťanské}
+{x_list: wedding}
 
 {define: Amaj7/B base-fret 1 frets 0 2 2 2 2 4}
 

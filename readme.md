@@ -6,6 +6,8 @@ Collection of songs in chordpro format.
 
 - [Guitar](./books/guitar.pdf)
 - [Ukulele](./books/ukulele.pdf)
+- [Bass](./books/bass.pdf)
+- [Guitar (Wedding Only)](./books/wedding.pdf)
 
 ## Dependencies
 

@@ -1,9 +1,9 @@
 {title: Prisahám}
 {artist: Monika Ližbetin}
+{x_list: wedding}
 
-{start_of_grid 4x4: I:}
-| E | B | C#m7      |
-| B | E | F#4  | F# |
+{start_of_grid 12: I:}
+| E | B | C#m7 | B | E | F#4  | F# |
 {end_of_grid}
 
 {start_of_verse: S1:}

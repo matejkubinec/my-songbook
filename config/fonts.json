@@ -10,7 +10,7 @@
     "fonts": {
       "title": { "description": "plex bold 12" },
       "text": { "description": "plex 10" },
-      "chord": { "description": "plex bold 10" },
+      "chord": { "description": "plex bold 9" },
       "chordfingers": {
         "file": "ChordProSymbols.ttf",
         "numbercolor": "background"
