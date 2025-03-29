@@ -1,5 +1,4 @@
 {
-  "$schema": "https://www.chordpro.org/chordpro/pub/config60.schema",
   "settings": {
     "columns": 1
   },
@@ -33,8 +32,10 @@
       "chords": 1.2
     },
     "chorus": {
+      "indent": 0,
       "bar": {
-        "offset": 4
+        "offset": 4,
+        "width": 0
       }
     },
     "papersize": "a4",

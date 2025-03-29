@@ -1,10 +1,10 @@
 {
   "pdf": {
-    "fontdir": "/workspace/fonts",
+    "fontdir": ["./fonts", "~/Library/Fonts"],
     "fontconfig": {
       "plex": {
-        "": "IBMPlexSans-Regular.ttf",
-        "bold": "IBMPlexSans-Bold.ttf"
+        "": "IBMPlexSerif-Regular.ttf",
+        "bold": "IBMPlexSerif-Bold.ttf"
       }
     },
     "fonts": {

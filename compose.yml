@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/workspace
     command:
-      - --transcode=custom
+      - --transcode=scandinavian
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/guitar.json
       - --output=books/guitar.pdf
@@ -18,7 +18,7 @@ services:
     volumes:
       - .:/workspace
     command:
-      - --transcode=custom
+      - --transcode=scandinavian
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/ukulele.json
       - --output=books/ukulele.pdf
@@ -30,7 +30,7 @@ services:
     volumes:
       - .:/workspace
     command:
-      - --transcode=custom
+      - --transcode=scandinavian
       - --decapo
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/bass.json
