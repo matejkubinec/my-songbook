@@ -1,11 +1,13 @@
 services:
   guitar:
     container_name: guitar
-    image: matejkubinec/chordpro
+    platform: linux/amd64
+    image: chordpro/chordpro
     working_dir: /workspace
     volumes:
       - .:/workspace
     command:
+      - chordpro
       - --transcode=scandinavian
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/guitar.json
@@ -13,11 +15,13 @@ services:
 
   ukulele:
     container_name: ukulele
-    image: matejkubinec/chordpro
+    platform: linux/amd64
+    image: chordpro/chordpro
     working_dir: /workspace
     volumes:
       - .:/workspace
     command:
+      - chordpro
       - --transcode=scandinavian
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/ukulele.json
@@ -25,11 +29,13 @@ services:
 
   bass:
     container_name: bass
-    image: matejkubinec/chordpro
+    platform: linux/amd64
+    image: chordpro/chordpro
     working_dir: /workspace
     volumes:
       - .:/workspace
     command:
+      - chordpro
       - --transcode=scandinavian
       - --decapo
       - --filelist=${SONGBOOK_LIST:-list.txt}

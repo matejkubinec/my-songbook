@@ -12,7 +12,9 @@ wedding:
 		--rm \
 		-v ".:/workspace" \
 		-w "/workspace" \
-		matejkubinec/chordpro \
+		--platform=linux/amd64 \
+		chordpro/chordpro \
+		chordpro \
 	    --transcode=custom \
       	--filelist=list.txt \
       	--config=./config/guitar.json \
