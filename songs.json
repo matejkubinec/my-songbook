@@ -1,0 +1,190 @@
+[
+  {
+    "artist": "Chinaski",
+    "title": "Víno",
+    "lists": [],
+    "content": "{artist:Chinaski}\n{title:Víno}\n{capo:1}\n\n{start_of_verse: S1:}\n[C]Zase je pátek a [G]mám toho dost, tak ber[Bb]u kramle, za zády[F] Černý most.\nA pokud mi to D1 dovolí, než minu Jihlavu, hodím Prahu za hlavu.\nJedu jak Pražák, hlava nehlava, mám jediný cíl a přede mnou je Pálava.\nUž od Brna jsem jako na trní, ta s[Bb]ladká píseň ta[G]k blízko zní.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[C]My máme rádi [G]víno, m[Bb]ilujeme krásné [F]ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\nMy máme rádi víno, milujeme krásné ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\n{end_of_chorus}\n\n{start_of_grid 4x4}\n| C | G | B | F |\n{end_of_grid}\n\n{start_of_verse: S2:}\nJako papír hodím práci a všechny šéfy za hlavu, \npánové, omlouvám se, ale já mizím na Moravu.\nNajdu tam všechno, co mi doma schází, dobrý lid a klid a řád.\nNajdu tam všechno, co na světě mám rád, vodu, slunce a nekonečný vinohrad.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[C]My máme rádi [G]víno, m[Bb]ilujeme krásné [F]ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\nMy máme rádi víno, milujeme krásné ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\n\nMy tady totiž máme všechno, co na světě máš rád.\nA ochutnat ti dáme, slunce a nekonečný vinohrad.\n{end_of_chorus}\n\n{start_of_bridge: P:}\n[Em]Tak se tu žije na[F] padesátý rovnoběžce, v[G] mírném klima našeho podnebí.\n[Em]Je krásné nemít n[F]ikdy dost a[G] dělat věci jen tak pro radost.\n{end_of_bridge}\n\n{start_of_chorus: R:}\n[C]My máme rádi [G]víno, m[Bb]ilujeme krásné [F]ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\nMy máme rádi víno, milujeme krásné ženy a zpěv.\nA na věc jdeme přímo, v žilách nám proudí moravská krev.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Hex",
+    "title": "V piatok podvečer",
+    "lists": [],
+    "content": "{title: V piatok podvečer}\n{artist: Hex}\n\n{start_of_verse: S1:}\n[C]Pondelok býva [G]nekonečný,[Am] Len tak\n[C]S pohľadom sfi[G]ngy nad pr[Am]ácou spím\nNo [Fmaj7]ale cez víkend bol [F]ešte [G]nádherný svet\n\n[C]Životom plávam[G] a netuším[Am] kam a s kým\n[C]Ja nemám žiadn[G]y harmonog[Am]ram\n[Fmaj7]No ale cez víkend mám [F]vždy nádherný [G]svet [F]\n{end_of_verse}\n\n{start_of_chorus: R:}\n[C]V piatok podvečer si [G]zresetujem hlavu\n[Am]Možnože tak nájdem [G]aj myšlienku[C] zdravú\n[F]Veď to je jediné, čo\n[C]Nás všetkých baví\n[Am]V piatok si realitu [G]odstrániť [F]z hlavy do žíl\n{end_of_chorus}\n\n{start_of_grid 4x4: M:}\n| C | % | G  | F |\n{end_of_grid}\n\n{start_of_verse: S2:}\nTo predsa nie som skutočne ja a kto,\nten, čo tu sedí a záujem hrá\nNo ale cez víkend bol ešte nádherný svet\nŽivotom plávam a netuším kam a s kým\nJa nemám žiadny harmonogram\nNo ale cez víkend mám vždy nádherný svet\n{end_of_verse}\n\n{start_of_chorus: R:}\nV piatok podvečer si zresetujem hlavu\nMožnože tak nájdem aj myšlienku zdravú\nVeď to je jediné čo, nás všetkých baví\nV piatok si realitu odstrániť z hlavy do žíl\n{end_of_chorus}\n\n{start_of_grid 4x4: SL:}\n| C | G | Am | G  |\n| C | F | C  | Am |\n| G | % | F  | %  |\n{end_of_grid}\n\n{start_of_chorus: R:}\n[C]V piatok podvečer si [G]zresetujme hlavy\n[Am]Možnože sa nájde v [G]jednej rozum[C] zdravý\n[F]Veď to je jediné čo, [C]nás všetkých baví\n[Am]V piatok si realitu [G]odstrániť [F]z hlavy do žíl\n\nV piatok podvečer si zresetujme hlavy\nMožnože sa nájde v jednej rozum zdravý\nVeď to je jediné čo, nás všetkých baví\nV piatok si realitu odstrániť z hlavy\n[C]Z hl[G]avy [F]do žíl\n[C]Z hl[G]avy [F]do žíl\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Hex",
+    "title": "Vianočný Karol",
+    "lists": [],
+    "content": "{title: Vianočný Karol}\n{artist: Hex}\n\n{start_of_verse: S1:}\n[E]Keď na vianoce [A]Karol\nsi [B]tíško pláva našou [A]popraskanou vaňou,\n[E]a starý sused [A]nadol\npred [B]správami pomaly [A]telku zapína.\n[E]Ja kráčam známou [A]ulicou\nna staré [B]námestie s [A]tvárou kamennou\n[E]a dúfam, že dnes [A]náhodou\npri [B]stánkoch stretnem [A]zopár priateľov.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[E]Stretnúť len [A]pár priate[B]ľov,[A] náhodou\n[E]na víne [A]tváre pod lam[B]pou [A]\nDnes príde [F#m]tvár aj líška ne[D]má\naj [E]Jozef nezbed[B]ný\n[E]Stretnúť len [F#m]pár priate[B]ľov\n{end_of_chorus}\n\n{start_of_verse: S2:}\nA dievčatá a dámy,\nktoré nás míňajú nám vytáčajú hlavy.\nPomaly strácam sily\nz tuhých nápojov množstva cigariet a zimy\nTak ako sa máš, vravím\nMilý Karol,vieš čo s tebou ráno isto spravím\nČo tvoje plutvy zmôžu\nAk si dnes zalietaš možno zachrániš si kožu\n{end_of_verse}\n\n{start_of_chorus: R:}\n[E]Stretnúť len [A]pár priate[B]ľov,[A] náhodou\n[E]na víne [A]tváre pod lam[B]pou [A]\nDnes príde [F#m]tvár aj líška ne[D]má\naj [E]Jozef nezbed[B]ný\n[E]Stretnúť len [F#m]pár priate[B]ľov\n{end_of_chorus}\n\n{start_of_bridge: P:}\n[D] ...This is a christmas time,\nfor children all around the world...\n{end_of_bridge}\n\n{start_of_chorus: R:}\n[E]Stretnúť len [A]pár priate[B]ľov,[A] náhodou\n[E]na víne [A]tváre pod lam[B]pou [A]\nDen sa [E]končí, para [A]stúpa,\nprázdny [B]pohár držím a [A]všetko zlé je preč\n[E]Stretnúť len [F#m]pár priate[B]ľov [E]\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Horkýźe Slíže",
+    "title": "L.A.G. song",
+    "lists": [],
+    "content": "{title: L.A.G. song}\n{artist: Horkýźe Slíže}\n\n{start_of_verse}\n[A]Poď sem, nech sa s tebou zblížim\n[E]Poď sem, ja ti neublížim\n[Bm]Poď sem, ja ťa nezbijem\n[D]I'm sorry, I'm Lesbian\n\nPoď sem, som tvoj dvorný básnik\nMám energiu za dvanástich\nA k tomu lubrikačný gel\nI'm sorry, I'm really Gay\n{end_of_verse}\n\n{start_of_chorus: R:}\n[A]Lesbian's and [E]Gay's song...\n[G]Lesbian's and [D]Gay's song...\nLesbian's and Gay's song...\nLesbian's and Gay's song...\n{end_of_chorus}\n\n{start_of_verse}\nPoď sem, pustím Iron Maiden\nPoď sem, nalejem ti za jeden\nPoď sem, s bárskym nepijem\nI'm sorry, I'm Lesbian\n\nPoď sem, tu si ku mne hačaj\nKeď sme ťa pozval na rum a čaj\nStoj! Nechoď nikam! Čo je? Hej!\nI'm sorry, I'm really Gay\n{end_of_verse}\n\n{start_of_chorus: R:}\n[A]Lesbian's and [E]Gay's song...\n[G]Lesbian's and [D]Gay's song...\nLesbian's and Gay's song...\nLesbian's and Gay's song...\n{end_of_chorus}\n\n{start_of_solor: Sólo}\n[A] [E] [Bm] [D]\n{end_of_solor}\n\n{start_of_verse}\nPoď sem, máme spolu v pláne\nŽe ťa okúpem vo fontáne\nTak otvor bránu, lebo ju rozbijem!\nI'm sorry baby, I'm Lesbian\n\nViem, neopakuj mi to stále\nJa som vyrástol na Death Metal-e\nJa takýmto veciam rozumiem\nI'm sorry... ale veď ja viem-\n{end_of_verse}\n\n{start_of_chorus: R:}\n[A]Lesbian's and [E]Gay's song...\n[G]Lesbian's and [D]Gay's song...\nLesbian's and Gay's song...\nLesbian's and Gay's song...\n{end_of_chorus}"
+  },
+  {
+    "artist": "Horkýže Slíže",
+    "title": "Ukáž tu tvoju zoo",
+    "lists": [],
+    "content": "{title: Ukáž tu tvoju zoo}\n{artist: Horkýže Slíže}\n{columns: 1}\n\n{start_of_intro: I:}\n[E]\n{end_of_intro}\n\n{start_of_verse}\n[E]Top model [A]Anna H.sa [C]kúpala [D]nahá[E].\n[E]Prešla si [A]po tele a [C]vraví si[D] ahá[E].\n[E]Uterák [C]zaha[A]lí, [E]arzenál [C]nema[D]lý,\n[E]má dokonalý [A]materiál [C]a zato [D]je [E]drahá.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[E]Tak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery [A]do [D]óó.\nTak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery do óó.\n{end_of_chorus}\n\n{start_of_verse}\nTop model Anna H. sa fotila nahá\nHanbatý kalendár na rajských Bahamách\nHonorár sedem núl, ja z kalendára trhám júl\nJa chcel by som byť jej špongiou a brázdiť po nohách\n{end_of_verse}\n\n\n{start_of_chorus: R:}\n[E]Tak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery [A]do [D]óó.\nTak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery do óó.\n[C]A tak ťa prosím ešte poď, [G]krásny úsmev na mňa hoď a [D]ukáž tú tvoju [E]ZOO.\nA tak ťa prosím ešte poď, krásny úsmev na mňa hoď a ukáž tú tvoju ZOO.\n{end_of_chorus}\n\n\n{start_of_verse}\nV sherwoodskom lese našli nahú Annu H\nKto ste ju poznali, tak toto je druhá\nCNN TV headline news, pravda, hej, tá nám padá z úst\nLebo my máme ruky nad bibliou a každý prisahá\n{end_of_verse}\n\n{start_of_chorus: R:}\n[E]Tak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery [A]do [D]óó.\nTak ale stoj už ani muk, nafotíme riadny book, len našpúľ pery do óó.\n[C]A tak ťa prosím ešte poď, [G]krásny úsmev na mňa hoď a [D]ukáž tú tvoju [E]ZOO.\nA tak ťa prosím ešte poď, krásny úsmev na mňa hoď a ukáž tú tvoju ZOO.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Janais",
+    "title": "Naveky",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Naveky}\n{artist: Janais}\n{capo: 1}\n{x_list: wedding}\n\n{start_of_verse: S1:}\n[Am7]Máj [G/H]a [C]sny v [F]trá[G/E]ve[C]\n[Am7]Nez[G/H]has[C]ni [G]hviezdy nado [Am7]mnou\nNaveky amen\nSpútaní nocou tajomnou\n{end_of_verse}\n\n{start_of_chorus: R1:}\nKeď je život [F]bás[C]nik, [G]spolu máme [Dm7]viac\nsme [F]bláz[C]ni, čo v [G]láske našli rým.\nKeď je život [F]krás[C]ny, [G]hľadím na me[Dm7]siac\na [F]sní[C]vam s [G]ním.\n{end_of_chorus}\n\n{start_of_verse: S2:}\nDážď a s ním ráno\nNezhasli hviezdy nado mnou\nV dobrom, v zlom, áno.\nSme spútaní mocou tajomnou\n{end_of_verse}\n\n{start_of_chorus: R2:}\nKeď je život básnik, spolu máme viac\nsme blázni, čo v láske našli rým.\nKeď je život krásny, hľadím na mesiac\na snívam s ním.\n\nKeď je život básnik, spolu máme viac\nsme blázni, čo v básni našli znamenie\nKeď je život krásny, hľadím na mesiac\no nás dvoch vie.\n{end_of_chorus}\n\n{start_of_bridge: B:}\n[Am7]Včera, [G7/H]zajtra, [C]dnes, [Dm7]spolu smolu [Am7]niesť,\n[Am7]bosí [G7/H]rosou [C]ísť, aj [G]snívať [Dm7]sny.\n[Am7]Včera, [G7/H]zajtra, [C]zas, [Dm7]kým nám praje [Am7]čas,\n[Am7]spolu [G7/H]máme [C]viac síl[G].\n{end_of_bridge}\n\n{start_of_chorus: R3:}\nKeď je život básnik, spolu máme viac\nsme blázni, čo v láske našli rým.\nKeď je život krásny, hľadím na mesiac\na snívam s ním.\n\nKeď je život básnik, spolu máme viac\nsme blázni, čo v básni našli znamenie\nKeď je život krásny, hľadím na mesiac\no nás dvoch vie.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Koledy",
+    "title": "A včera z večera",
+    "lists": [],
+    "content": "{title: A včera z večera}\n{artist: Koledy}\n\n{start_of_verse}\n[C]A včera [G]z večera[C], a včera [C7]z večera, [F]stala sa novina, [C]stala [G]sa novina[C].\n(: Panenka Mária :) (: Syna porodila. :)\n(: Syna najmenšieho, :) (: Boha najvyššieho. :)\n(: V jasliach položený :) (: dávno prisľúbený. :)\n(: Tam leží Mesiáš, :) (: On je pravý Boh náš. :)\n(: Pastuškovia vstali :) (: ten čas slávu vzdali. :)\n(: Nebeská veleba:) (: poslaná je z neba. :)\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Koledy",
+    "title": "Aký je to svit",
+    "lists": [],
+    "content": "{title: Aký je to svit}\n{artist: Koledy}\n\n{start_of_verse}\n1.[D]Aký je to svit, čože to má byť v Bet[A7]lem[D]e?\n/:[D]Hore sa ma[B7]jme, [Em]hneď povstáv[A]ajme z[D]o z[A7]eme[D]! :/\n{end_of_verse}\n\n{start_of_verse}\n2. Ej, ej, pastieri, aké to chýry, aký hlas?\n/: Či sa mi sníva, či anjel spieva, a zve nás? :/\n{end_of_verse}\n\n{start_of_verse}\n3. No nemeškajme, hore sa majme, je iste\n/: niečo nového, neslýchaného pri meste. :/\n{end_of_verse}\n\n{start_of_verse}\n4. Z neba mal stúpiť, smrťou vykúpiť celý svet\n/: predpovedaný, zrodený z Panny ako kvet. :/\n{end_of_verse}\n\n{start_of_verse}\n5. To sa ten istý z Panenky čistý narodil\n/: Boží Syn tu dnes, ako to z nebies hlas tvrdil. :/\n{end_of_verse}\n\n{start_of_verse}\n6. Poďme hneď k nemu k mestu Betlemu, vstávajme\n/: a vrúcne jeho, narodeného, vítajme. :/\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Koledy",
+    "title": "Do hory, do lesa, valasi",
+    "lists": [],
+    "content": "{title: Do hory, do lesa, valasi}\n{artist: Koledy}\n\n{start_of_verse}\n1. [D]Do hory, do [A] lesa, [D]va[G]las[A7]i, [D]či horí v tom [A7]našom [D]sal[A]aši[D],\n[D]radosť veľká sa zjav[A]uje a [D]tento svet pote[A7]šuje.\n[D]Kráčajte, brat[A]kovia k [D]jas[G]li[A7]čkám, a[D]by ste zjavi[A7]li v[D]šetk[A]o [D]nám.\n{end_of_verse}\n\n{start_of_verse}\n2. Počkajte nás, milí bratkovia, nebeskí lietajú duchovia.\nSláva Bohu! Prespevujú, pokoj ľuďom ohlasujú,\nvtáčkovia prekrásne spievajú a do Betlehema volajú.\n{end_of_verse}\n\n{start_of_verse}\n3. Zrodila Panenka Dieťa nám, v jasličkách vložené leží tam.\nMesiáša čakaného, Boha na svet vteleného,\npoďme a vítajme vznešené Dieťatko, ležiace na sene.\n{end_of_verse}\n\n{start_of_verse}\n4. Ó, Boží Synáčku z výsosti, dajže nám zo svojej milosti,\nby sme ťa večne chválili, meno Božie velebili.\nŽehnaj nás, drahý náš Spasiteľ, žiadaný náš ty Emanuel.\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Koledy",
+    "title": "Dobrá novina",
+    "lists": [],
+    "content": "{title: Dobrá novina}\n{artist: Koledy}\n\n{start_of_verse}\n1. /:[D]Dobrá [G]novi[D]na, [F#m]šťastná [Em]hodi[A]na[D]. :/\n[D]Čo sa [Em7] tejto [D]noci [A7]stalo? [D]Nebo s[Em7]vetu S[D]vetlo [A7]dalo.\n[D]Dobrá [G]novi[D]na, [F#m]šťastná [Em]hodi[A]na[D].\n{end_of_verse}\n\n{start_of_verse}\n2. /: Počuli sme hlas, ktorý tešil nás. :/\nSlovo v telo o polnoci zrodilo sa z Božej moci.\nNám sa zjavilo, by nás spasilo.\n{end_of_verse}\n\n{start_of_verse}\n3. /: Jasnosť spanilá nás osvietila. :/\nŽiara padla na salaše, osvietila hory naše.\nDobrá novina, šťastná hodina.\n{end_of_verse}\n\n{start_of_verse}\n4. /: Panna predivná z rodu Dávida. :/\nSpasiteľa čo nosila, dnes nám ho aj porodila.\nDobrá novina, šťastná hodina.\n5. /: Bratia, spiechajme, nič nemeškajme. :/\nKľaknúc pred ním na kolená privítajme svojho Pána.\nVitaj, spanilý Ježiško milý!\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Aleluja",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Aleluja}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse}\n[D]Alelu[F#m]ja, ale[G]lu, alelu[D]ja, [G]alel[D]uja, ale[E]luja[A].\n\n[D]Alelu[F#m]ja, ale[G]lu, alelu[D]ja, [G]alel[D]uja, ale[A]luja[D].\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Baránok Boží",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Baránok Boží}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{define: Amaj7/B base-fret 1 frets 0 2 2 2 2 4}\n\n{start_of_verse}\n[E]     [C#m] [A]         [A7]\nBaránok Boží, ty snímaš hriechy sveta,\n[E]  [C#m] [F#m]  [B7]  \nzmiluj sa nad nami.  (2x)\n\n[E]     [C#m] [A7]            [Amaj7/B] \nBaránok Boží, ty snímaš hriechy sveta,\n[E]   [B7]  [A7][B7][A7]  \ndaruj nám pokoj,\n[E]  [B7] [A7][B7][E]\ndaruj nám po-koj.\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Dávam všetko",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{artist: Kresťanské}\n{title: Dávam všetko}\n{x_list: wedding}\n\n{start_of_verse}\n[D]                  [A]                [G]\nDnes chcel by som Ti dať to, čo v srdci mám\n  [A]       [Bm]                [A]    [D]\na dávam na oltár k Tvojim nohám kráľov Kráľ.\n[D]                [A]                        [G]\nDnes kladiem svoje sny, ja sa zriekam svojich práv,\n  [A]            [Bm]             [A]   [D]\nuž nechcem pyšný stáť, chcem nový život mať.\n{end_of_verse}\n\n{start_of_chorus: R:}\n   [Bm] [A]  [D]   [G]   [D]  [Bm]  [A]  [G]\n(: A dávam všetko, to čo mám, Tebe, Kráľ. :)\n{end_of_chorus}\n\n{start_of_verse}\n[D]             [A]                     [G]\nKeď túto pieseň hrám, pod krížom stojím sám\n  [A]           [Bm]        [A]    [D]\na všetky bohatstvá za smeti pokladám.\n[D]               [A]                     [G]\nChcem poznať Teba Kráľ, slávu mena, ktoré máš,\n   [A]         [Bm]              [A]    [D]\ntá radosť nekončí aj keď s Tebou trpieť mám.\n{end_of_verse}\n\n{start_of_chorus: R:}\n   [Bm] [A]  [D]   [G]   [D]  [Bm]  [A]  [G]\n(: A dávam všetko, to čo mám, Tebe, Kráľ. :)\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Glória",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Glória}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_grid 4x4: Nástup}\n| E | B | A |\n{end_of_grid}\n\n{start_of_chorus: R:}\n       [E] [B] [C#m]   [A]              [E] [B] [A]\n(: Glória, in excelsis Deo :) 3x / Glória... 1x\n{end_of_chorus}\n\n{start_of_verse}\n[E]  [B]      [C#m]  [A]\nSláva Bohu na výsostiach,\n        [C#m]       [B]    [A]\nna zemi pokoj ľuďom dobrej vôle.\n[E]  [B]         [C#m]  [A]\nChválime ťa, velebíme ťa,\n         [C#m]    [B]      [A]\nklaniame sa ti, oslavujeme Ťa,\n[E]         [B]        [C#m] [A] [C#m] [B]   [A]\nVzdávame Ti vďaky, lebo veľká je sláva Tvoja Pane.\n      [E][B][C#m][A]         [C#m] [B] [A]\nBože, Kráľ nebeský, Boh Otec všemohúci.\n{end_of_verse}\n\n{start_of_chorus:R:}\n{end_of_chorus}\n\n{start_of_verse}\n[E]   [B]    [C#m] [A]       [C#m]  [B]        [A]\nPane, Ježišu Kriste, ty jednorodený syn, Pán a Boh,\n[E]     [B]      [C#m]     [A]            [C#m]\nBaránok Boží, Syn Otca, Ty snímaš hriechy sveta,\n[B]           [A]\nzmiluj sa nad nami.\n   [E] [B] [C#m]  [A]           [C#m] [B]     [A]\nTy snímaš hriechy sveta, prijmi našu úpenlivú prosbu.\n   [E] [B] [C#m]    [A]   [C#m]     [B]    [A]\nTy sedíš po pravici Otca, zmiluj sa nad nami...\n{end_of_verse}\n\n{start_of_chorus:R:}\n{end_of_chorus}\n\n{start_of_verse}\n[E]           [B]    [C#m]     [A]\nVeď len ty si Svätý, len ty si Pán,\n          [C#m]      [B]       [A]\nlen ty si Najvyšší, Ježišu Kriste,\n[E]      [B]      [C#m]      [A]   [C#m] [B] [A]\nS Duchom Svätým v sláve Boha Otca. Amen.\n{end_of_verse}\n\n{start_of_chorus:R:}\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Hymna púte zaľúbených (Ty dávaš lásku nám)",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Hymna púte zaľúbených (Ty dávaš lásku nám)}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse}\n   [C]               [Fmaj]\nMy prosíme ťa, Pane, daj nám požehnanie\n[Am]      [G]        [Fmaj]\na zachráň nás od prázdnych ciest.\n{end_of_verse}\n\n{start_of_verse}\n     [C]                   [Fmaj]\nNech tvoja láska, Pane, sa našou láskou stane\n     [Am]       [G]   [Fmaj]\nnech necháme sa tebou viesť.\n{end_of_verse}\n\n{start_of_chorus: Refrén}\n   [F]   [G]   [C]     [F]        [G]  [C]\nTy dávaš lásku nám, čo neberie lež dáva,\n       [F]         [G]   [Am]            [F]    [G]      [C]\n(: a z dvoch vzdialených sŕdc, môj Pane, v Tebe jedno sa stáva :)\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Nosíš ma nosíš",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Nosíš ma nosíš}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse}\n[D]                        [G]           [D]\nNosíš ma, nosíš v sebe, ja nebo tvorím v Tebe,\n [Bm]        [F#m]        [D]  [A]\nuhádneš, akú lásku k Tebe mám?\n[D]                        [G]            [D]\nJak prsteň drží perlu, tak láskou drž ma, ver v ňu,\n    [Bm]       [F#m]       [D] [A]     [A7]\nhoc nevieš akú cenu v sebe máš.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[D]      [G]  [D]       [G]\nObjav ma tam, kde si ty sám.\n[D]              [C]    [G]      [D]\nVládnime láskou, vládou krásnych sŕdc.\n[D]      [G]     [D]      [G]\nV sebe máš mňa v Tebe som ja.\n[D]              [C]    [G]      [D]\nVládnime láskou, vládou krásnych sŕdc. (3x)\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Otče náš",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{artist: Kresťanské}\n{title: Otče náš}\n{x_list: wedding}\n\n{start_of_verse}\n[D]  [Bm]  [Em]       [A]        [D]       [Bm] [Em]  [D]\nOtče náš, ktorý si na nebesiach, posväť sa meno tvoje,\n[D]  [Bm]   [Em]   [A]  [D]  [Bm]  [Em]  [A]  [D]\npríď kráľovstvo tvoje,\n[A]                  [Dm]\nbuď vôľa tvoja ako v nebi, tak i na zemi.\n[A]                  [Dm]\nChlieb náš každodenný daj nám dnes\n[Gm]     [A] [Gm]   [A]\na odpusť nám naše viny, ako i my odpúšťame\n[A7]             [D]      [Bm]   [Em]     [A]\nsvojim vinníkom, a neuveď nás do pokušenia,\n[D] [Bm]     [Em][A][D]  [Bm] [Em] [A] [D]\nale zbav nás zlého.\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Pane, zmiluj sa",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Pane, zmiluj sa}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse}\nP[C]ane, zmiluj[Dm7] sa, Pa[G]ne zmiluj s[C]a.\nP[C]ane, zmiluj[Dm7] sa, Pa[G]ne zmiluj s[C]a. (2x)\n\n[Cmaj7]Kriste, zmiluj [F]sa, [Dm7]Kriste, [G]zmiluj [C]sa,\n[C]Pane, zmilu[Dm7]j sa, Pa[G]ne, zmiluj [C]sa. (2x)\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Svadobná (Dievča v bielom závoji)",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Svadobná (Dievča v bielom závoji)}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse}\n             [C]    [G]  [C]\nKeď dievča v bielom závoji\n         [F]     [G]   [C]\nstane si s tebou pred oltár,\n         [G]  [G]   [Am]\njej nežné áno zazvoní,\n         [Dm]    [G]   [C]\n(: dáte si seba, ako dar :)\n{end_of_verse}\n\n{start_of_verse}\n        [C]   [G]  [C]\nA potom spolu životom,\n          [F]   [G]   [C]\npo ceste, ktorá svietiť má,\n        [G]   [G]      [Am]\npôjdete spolu v dobrom zlom\n         [Dm]   [G]  [C]\n(: až kdesi hore do neba. :)\n{end_of_verse}\n\n{start_of_chorus: Refrén}\n[C]\n(: Nech Boh stále bdie nad vami,\n         [Dm]  [G]    [C]\nnech vám svoju milosť dá.\n[C]\nAby ste kráčali vždy jeho cestami,\n       [Dm]  [G]   [C]\ntam je láska úprimná. :)\n... tam je láska úprimná, tam je láska úprimná\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Svätý",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Svätý}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{define: D/E base-fret 1 frets 0 0 0 2 3 2}\n{define: C/E base-fret 1 frets 0 3 2 0 1 0}\n\n{start_of_verse}\n[E]                    [D/E]      [C/E]     [E]\nSvätý, svätý, svätý je Pán, Boh všetkých svetov.\n                  [D/E]   [C/E]   [E]\nPlné sú nebesia i zem tvojej slávy.\n\n[F#m] [A]      [E]\nHosana na výsostiach!\n\n[E]                               [D/E] [C/E] [E]\nPožehnaný, ktorý prichádza v mene Pánovom.\n\n[F#m] [A]      [E]\nHosana na výsostiach!\n{end_of_verse}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Sľub",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Sľub}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_grid 15: I:}\n| G | Em7 | C9 | D | G |\n| G | Em7 | C9 | D | G |\n{end_of_grid}\n\n{start_of_verse}\n[G]                     [C9]        [D]\nV šťastí aj v nešťastí, aj v zdraví aj v chorobe,\n[G]                     [C9]        [D]\npod slnkom aj v daždi, pri ľudskej dobrote aj zlobe...\n{end_of_verse}\n\n{start_of_chorus: R:}\n[G]                      [Em7]                [C9]  [D]    [G]\nProsím, nech viem ľúbiť, nech viem ctiť, nech viem, ako mať rád.\n[G]                      [Em7]     [C9] [D]   [G] [Em7]  [C9]  [D]  [G]\nNech viem sa sľúbiť, byť mu oporou jeho pevný hrad.\n{end_of_chorus}\n\n{start_of_verse}\n[G]                     [C9]        [D]\nPo všetky dni života, kým nás smrť nerozdelí,\n[G]                     [C9]        [D]\nnech nás Boh požehná, nech naše srdcia stmelí...\n{end_of_verse}\n\n{start_of_chorus: R:}\n[G]                      [Em7]                [C9]  [D]    [G]\nProsím, nech viem ľúbiť, nech viem ctiť, nech viem, ako mať rád.\n[G]                      [Em7]     [C9] [D]   [C9]\nNech viem sa sľúbiť, byť mu oporou jeho pevný hrad.\n{end_of_chorus}\n\n{start_of_bridge}\n[C9]        [G]        [C9]              [G]\nVravím vám, nebojím sa a každé ráno, keď zobudím sa,\n[C]         [Am7]             [D4]       [D]\nbudem volať, nech nám Pán Boh lásku požehná...\n{end_of_bridge}\n\n{start_of_chorus: R:}\n[G]                      [Em7]       [C9]  [D]        [G]\n(: S tebou | viem ľúbiť, budem ctiť, budem navždy mať rád\n[G]                      [Em7]       [C9]  [D]        [G]\na chcem sa sľubiť, byť mu oporou jeho pevný hrad. :)\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Kresťanské",
+    "title": "Vody nezahasia",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Vody nezahasia}\n{artist: Kresťanské}\n{x_list: wedding}\n\n{start_of_verse: S1:}\n[C9]                        [Ami]\n(: Vody nezahasia lásku tú, riekou zaplaviť sa nedá,\n[D2]          [D]               [G]                  [D]\nmoria strachu nezakryjú pre mňa lásku tú, :) pre mňa lásku tú.\n{end_of_verse}\n\n{start_of_chorus: R:}\n[C]        [G]      [C]           [G]   [D]\nLáska mnou preteká, srdce mi more napĺňa,\n    [C]          [G]       [C]             [G]          \nako vlna sa leje cezo mňa, láska mnou preteká.\n{end_of_chorus}\n\n{start_of_verse: S2:}\nSmútok nezahasí lásku tú, temnotou zaliať sa nedá,\nnebojím sa, láska Tvoja poteší ma, poteší ma.\n{end_of_verse}\n\n{start_of_chorus: R:}\nLáska mnou preteká, srdce mi more napĺňa,\nako vlna sa leje cezo mňa, láska mnou preteká.\n{end_of_chorus}\n\n{start_of_bridge: B:}\n[G]             [C]       [D]                 [G]\nV Tebe nájdem uzdravenie, Teba nájdem - pokoj mám,\n                       [C]                   [D]\nviem, že niet na svete tak veľkých riek, tak hlbokých vôd,\n     [C9]                 [G]   [D]\ntaký vysoký štít, že more nezlomíš.\n{end_of_bridge}\n\n{start_of_chorus: R:}\nLáska mnou preteká, srdce mi more napĺňa,\nako vlna sa leje cezo mňa, láska mnou preteká.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Monika Ližbetin",
+    "title": "Prisahám",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Prisahám}\n{artist: Monika Ližbetin}\n{x_list: wedding}\n\n{start_of_grid 12: I:}\n| E | B | C#m7 | B | E | F#4  | F# |\n{end_of_grid}\n\n{start_of_verse: S1:}\nV [E]bielych šatách tu [B]stojím\n[E]a nemám viac už [B]strach,\nlebo [E]dnes svoj život\ns tvojím [B]spojím,\ns [C#m7]modlitbou na pe[F#4]rách.[F#]\n\n[E]Dnes sa dve cesty [B]pretnú,\ndve [E]túžby spoja sa v [B]jednu,\ntak [C#m]poďme sa [B]objímať,\n[A]všetky kríže [G#m]prijímať,\nkým [G]do ríši dobra\nspolu [F#4]vojdeme raz. [F#]\n{end_of_verse}\n\n{start_of_chorus: R:}\nPrisa[B]hám[G#m] ti ver[E]nosť a [F#]lásku,\nprisa[B]hám[G#m], nie [E]na chvíľu [F#]krátku,\nale [E]naveky, [F#]naveky, [B]na dl[F#/A]hý [G#m]čas,\n[F#]kým [E]smrť nerozdelí [F#]nás.\n{end_of_chorus}\n\n{start_of_verse: S2:}\nOtázok mnoho na perách mám,\nodpoveď na mnohé dnes nepoznám,\nže sme si súdený, to dávno viem,\nveď ťa ľúbim, milujem.\n\nPred Bohom, davom a sami pred sebou\nsvoj sľub sme potvrdili prísahou,\ndo rúk ti nevkladám iba svoju dlaň,\nsprevádzaj ma, miluj a naveky chráň.\n{end_of_verse}\n\n{start_of_chorus: R:}\nPrisahám ti vernosť a lásku,\nprisahám, nie na chvíľu krátku,\nale naveky, naveky, na dlhý čas,\nkým smrť nerozdelí nás.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Monika Ližbetin",
+    "title": "S tebou kráčať",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: S tebou kráčať}\n{artist: Monika Ližbetin}\n{x_list: wedding}\n\n{start_of_grid 4x4: I:}\n| A | D | A | D |\n{end_of_grid}\n\n{start_of_verse: S1:}\n[A]           [D]        [A]     [D]       [A]        [D]       [E4] [E]\nDávno je preč chvíľa, čo zmenila môj svet, keď klakol si na kolená.\n[A]           [D]        [A]     [D]    [A]    [D]       [E4] [E]\nŽe tvoj návrh príjmem, cítila som hneď, vedela čo to znamená.\n[F#m]                      [C#m]    [D]              [E4]     [E]\nMožno nevieš, splnil si mi sen a ja nikdy moju voľbu neoľutujem...\n{end_of_verse}\n\n{start_of_chorus: R:}\n     [A]   [D]            [A]    [D]\nTeba láska pri sebe chcem naveky mať.\n[A]           [D]           [E4]  [E]\nJednou cestou spolu s tebou kráčať.\n     [A]   [D]        [A]   [D]\nTeba láska celý živoť obetovať.\n[Bm]     [F#m]   [Bm]     [F#m]  [D]         [E]    [A]\nSpoločne smútiť, smiať sa túžiť, navzájom sa darovať.\n{end_of_chorus}\n\n{start_of_verse: S2:}\n[A]           [D]        [A]     [D]       [A]        [D]       [E4] [E]\nDávno je preč chvíľa, čo zmenila môj svet, keď triasli sa mi kolená.\n[A]           [D]        [A]     [D]    [A]    [D]       [E4] [E]\nDala si mi \"áno\" a ja som vedel hneď, čo to pre mňa znamená.\n[F#m]                      [C#m]    [D]              [E4]     [E]\nMožno nevieš, splnila si sen a ja nikdy moju voľbu neoľutujem.\n{end_of_verse}\n\n{start_of_chorus: R:}\nTeba láska pri sebe chcem naveky mať.\nJednou cestou spolu s tebou kráčať.\nTeba láska celý živoť obetovať.\nSpoločne smútiť, smiať sa túžiť, navzájom sa darovať.\n{end_of_chorus}\n\n{start_of_bridge: B:}\n              [F#m]        [C#m]               [D]                  [A]\nChcem s tebou rátať kroky, čo ma vedú v diaľ a neobzerať sa viac za seba.\n              [F#m]           [C#m]                   [D]      [E4]   [E]\nChcem s tebou kráčať, kde nebola som doposiaľ. Keď sa máme nič nám netreba...\n{end_of_bridge}\n\n{start_of_chorus: R:}\nTeba láska pri sebe chcem naveky mať.\nJednou cestou spolu s tebou kráčať.\nTeba láska celý živoť obetovať.\nSpoločne smútiť, smiať sa túžiť, navzájom sa darovať.\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Rossa",
+    "title": "Očeňka",
+    "lists": [
+      "wedding"
+    ],
+    "content": "{title: Očeňka}\n{artist: Rossa}\n{x_list: wedding}\n\n{start_of_grid 4x4: I:}\n| F | C | Dm | B |\n| F | C | Dm | B |\n| F | C | Dm | B |\n{end_of_grid}\n\n{start_of_verse: S1:}\n[F]Tvoyi ochen'ka hnedy, tvoy i [C]usta solodky, ty miy anhel [Dm]kotryy khoronyt' mi sny. \n[F]Moye serdtse dam tobi, do svita[C] to rozpovim, zhe ty moya rybko[Dm] a ya iba tviy. \n{end_of_verse}\n\n{start_of_chorus: R1:}\n[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! \n[F]I ya dykham pre tebe, uzh to [C]inche nebude, moye serdtse mi bye[Dm] iba pre tebe! \n{end_of_chorus}\n\n{start_of_grid: M1:}\n| F | C | Dm | B |\n| F | C | Dm | B |\n{end_of_grid}\n\n{start_of_verse: S2:}\n[D]Krasny khvil'i za nami, koly [A]hvizdy padali, v tod'ik zme sya [Bm]lyubov moya spoznali . \n[D]Pershy bochky na lavtsi, pershy [A]bochky dalas' mi, a ya znav zhe uzh [Bm]yes' moya a ya tviy.\n{end_of_verse}\n\n{start_of_chorus: R2:}\n[D]Zvyzdy svytyat' pre tebe, misyats'[A] svytyt' pre tebe, ta i sontse svytyt'[Bm] iba pre tebe! \n[D]I ya dykham pre tebe, uzh to[A] inche nebude, moye serdtse mi[Bm] bye iba pre tebe! \n{end_of_chorus}\n\n{start_of_grid: M2:}\n| D | A | Bm | G |\n| D | A | Bm | G |\n{end_of_grid}\n\n{start_of_chorus: R3:}\n[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! \n[F]I ya dykham pre tebe, uzh[C] to inche nebude, moye serdtse mi [Dm]bye iba pre tebe!\n[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! \n[F]I ya dykham pre tebe, uzh[C] to inche nebude, moye serdtse mi [Dm]bye iba pre tebe!\n{end_of_chorus}\n"
+  },
+  {
+    "artist": "Sima Magušinová",
+    "title": "Len ma ľúb",
+    "lists": [],
+    "content": "{title: Len ma ľúb}\n{artist: Sima Magušinová}\n\n{start_of_grid 4x4: I:}\n| G | D | Em | % |\n| G | D | Em | % |\n{end_of_grid}\n\n{start_of_verse: S1:}\n[G]Srdce mi volá po [D]láske a neviem, čo [Em]s tým,\n[G]nasýtiš, uzdravíš, [D]objímeš jedine [Em]ty,\n[G]jeseň, zima, [D]jar aj leto [Em]si,\n[G]húpať sa, húpať na [D]hojdačke, čo zave[Em]síš.\n{end_of_verse}\n\n{start_of_chorus: R:}\nLen ma [G]ľúb[D], len ma[G] ľúb[D],\n[Em]mojím pevným [D]štítom [G]buď[D],\nlen ma [G]ľúb[D], len ma [G]ľúb[D],\n[Em]v tebe túžim[D] [G]spoči[D]núť [Em].\n{end_of_chorus}\n\n{start_of_grid 4x4: M:}\n| G | D | Em | % |\n{end_of_grid}\n\n{start_of_verse: S2:}\n[G]Srdce mi volá po [D]chvíľach, čo neruší [Em]nič,\n[G]jak skala nezlomná [D]pred mojím strachom sa [Em]vztýč,\n[G]nedaj si ma, [D]ja ťa nedám, [Em]si,\n[G]húpať sa, húpať na [D]hojdačke, čo [Em]zavesíš.\n{end_of_verse}\n\n{start_of_chorus: R:}\nLen ma [G]ľúb[D], len ma[G] ľúb[D],\n[Em]mojím pevným [D]štítom [G]buď[D],\nlen ma [G]ľúb[D], len ma [G]ľúb[D],\n[Em]v tebe túžim[D].\n{end_of_chorus}\n\n{start_of_chorus: R:}\nLen ma [A]ľúb[E], len ma [A]ľúb[E],\n[F#m]mojím pevným [E]štítom [A]buď[E],\nlen ma [A]ľúb[E], len ma [A]ľúb[E],\n[F#m]v tebe túžim [E]spočinúť.\n{end_of_chorus}\n\n{start_of_outro: O:}\n[A]Srdce mi volá po [E]láske a už viem, čo[F#m] s tým,\n[A]nasýtiš, uzdravíš, [E]objímeš jedine[F#m] ty.\n{end_of_outro}\n"
+  }
+]

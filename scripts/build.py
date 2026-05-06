@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import json
 import pathlib
 import re
 import sys
@@ -26,7 +27,9 @@ def main() -> int:
 
     title_pattern = re.compile(r"^\{title:\s*(.*?)\s*\}$", re.IGNORECASE)
     artist_pattern = re.compile(r"^\{artist:\s*(.*?)\s*\}$", re.IGNORECASE)
+    x_list_pattern = re.compile(r"^\{x_list:\s*(.*?)\s*\}$", re.IGNORECASE)
     entries: list[tuple[str, str, str, str]] = []
+    song_data: list[dict[str, object]] = []
 
     for stem in sorted(pair_map):
         if pair_map[stem] != {".cho", ".pdf"}:
@@ -36,8 +39,10 @@ def main() -> int:
         pdf_path = stem.with_suffix(".pdf")
         title = stem.name
         artist = ""
+        lists: list[str] = []
+        cho_content = cho_path.read_text(encoding="utf-8")
 
-        for line in cho_path.read_text(encoding="utf-8").splitlines():
+        for line in cho_content.splitlines():
             stripped_line = line.strip()
             title_match = title_pattern.match(stripped_line)
             if title_match:
@@ -45,12 +50,23 @@ def main() -> int:
             artist_match = artist_pattern.match(stripped_line)
             if artist_match:
                 artist = artist_match.group(1)
-            if title_match and artist_match:
-                break
+            x_list_match = x_list_pattern.match(stripped_line)
+            if x_list_match:
+                raw_items = (item.strip() for item in x_list_match.group(1).split(","))
+                lists.extend(item for item in raw_items if item)
 
         cho_href = urllib.parse.quote(cho_path.relative_to(repo_root).as_posix(), safe="/")
         pdf_href = urllib.parse.quote(pdf_path.relative_to(repo_root).as_posix(), safe="/")
         entries.append((artist, title, cho_href, pdf_href))
+        song_data.append(
+            {
+                "artist": artist,
+                "title": title,
+                "lists": lists,
+                "content": cho_content,
+                "_sort_key": (artist.casefold(), title.casefold(), cho_href),
+            }
+        )
 
     entries.sort(key=lambda item: (item[0].casefold(), item[1].casefold(), item[2]))
 
@@ -79,6 +95,22 @@ def main() -> int:
     replacement = "\n".join(f"{indent}{line}" for line in generated_list.splitlines())
     updated_html = original_html[: match.start()] + replacement + original_html[match.end() :]
     index_path.write_text(updated_html, encoding="utf-8")
+
+    songs_json_path = repo_root / "songs.json"
+    sorted_song_data = sorted(song_data, key=lambda item: item["_sort_key"])
+    output_song_data = [
+        {
+            "artist": item["artist"],
+            "title": item["title"],
+            "lists": item["lists"],
+            "content": item["content"],
+        }
+        for item in sorted_song_data
+    ]
+    songs_json_path.write_text(
+        json.dumps(output_song_data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     return 0
 
 
