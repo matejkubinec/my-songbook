@@ -1,0 +1,43 @@
+services:
+  guitar:
+    container_name: guitar
+    platform: linux/amd64
+    image: chordpro/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - chordpro
+      - --transcode=scandinavian
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/guitar.json
+      - --output=books/guitar.pdf
+
+  ukulele:
+    container_name: ukulele
+    platform: linux/amd64
+    image: chordpro/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - chordpro
+      - --transcode=scandinavian
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/ukulele.json
+      - --output=books/ukulele.pdf
+
+  bass:
+    container_name: bass
+    platform: linux/amd64
+    image: chordpro/chordpro
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command:
+      - chordpro
+      - --transcode=scandinavian
+      - --decapo
+      - --filelist=${SONGBOOK_LIST:-list.txt}
+      - --config=./config/bass.json
+      - --output=books/bass.pdf

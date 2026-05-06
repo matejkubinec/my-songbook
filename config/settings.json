@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "columns": 1
+  },
+  "notes": {
+    "system": "custom"
+  },
+  "user": {
+    "name": "Matej",
+    "fullname": "Matej Kubinec"
+  },
+  "contents": [
+    {
+      "fields": ["artist", "sorttitle"],
+      "label": "Songbook -",
+      "line": "%{artist|%{} - }%{title}",
+      "pageno": "%{page}",
+      "fold": false,
+      "omit": false
+    }
+  ],
+  "pdf": {
+    "info": {
+      "author": "Matej Kubinec"
+    },
+    "diagrams": {
+      "show": "right"
+    },
+    "even-odd-pages": 0,
+    "pagealign-songs": 0,
+    "spacing": {
+      "chords": 1.2
+    },
+    "chorus": {
+      "indent": 0,
+      "bar": {
+        "offset": 4,
+        "width": 0
+      }
+    },
+    "papersize": "a4",
+    "headspace": 35,
+    "margintop": 50,
+    "formats": {
+      "title": {
+        "title": ["", "%{artist} - %{title}", ""],
+        "subtitle": ["", "%{capo|Capo %{}}", ""]
+      }
+    },
+    "grids": {
+      "symbols": {
+        "color": "foreground-medium"
+      }
+    }
+  }
+}

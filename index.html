@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>matejkubinec | my-songbook</title>
+    <style>
+      @font-face {
+        font-family: "IBMPlexSerif";
+        src: url("fonts/IBMPlexSerif-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "IBMPlexSerif";
+        src: url("fonts/IBMPlexSerif-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        --bg-color: #fff;
+        --text-color: #333;
+        --accent: blue;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #000;
+          --text-color: #ddd;
+          --accent: #38bdf8;
+        }
+      }
+
+      body {
+        font-family: "IBMPlexSerif", serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition:
+          background-color 0.3s,
+          color 0.3s;
+        margin: 0 40px;
+        line-height: 24px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a,
+      a:visited {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Songbook</h1>
+    <h3>Books</h3>
+    <ul id="books">
+      <li>
+        <a href="books/guitar.pdf" target="_blank" rel="noopener norefferer">
+          Guitar
+        </a>
+      </li>
+      <li>
+        <a href="books/bass.pdf" target="_blank" rel="noopener norefferer">
+          Bass
+        </a>
+      </li>
+      <li>
+        <a href="books/ukulele.pdf" target="_blank" rel="noopener norefferer">
+          Ukulele
+        </a>
+      </li>
+    </ul>
+    <h3>Songs</h3>
+    <ul id="songs">
+      <li>Chinaski - Víno <a href="songs/Chinaski/V%C3%ADno.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Chinaski/V%C3%ADno.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Hex - V piatok podvečer <a href="songs/Hex/V%20piatok%20podve%C4%8Der.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Hex/V%20piatok%20podve%C4%8Der.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Hex - Vianočný Karol <a href="songs/Hex/Viano%C4%8Dn%C3%BD%20Karol.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Hex/Viano%C4%8Dn%C3%BD%20Karol.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Horkýźe Slíže - L.A.G. song <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/LAG.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/LAG.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Horkýže Slíže - Ukáž tu tvoju zoo <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/Uk%C3%A1%C5%BE%20tu%20tvoju%20zoo.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/Uk%C3%A1%C5%BE%20tu%20tvoju%20zoo.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Janais - Naveky <a href="songs/Janais/Naveky.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Janais/Naveky.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Koledy - A včera z večera <a href="songs/Koledy/Koledy%20-%20A%20v%C4%8Dera%20z%20ve%C4%8Dera.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Koledy/Koledy%20-%20A%20v%C4%8Dera%20z%20ve%C4%8Dera.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Koledy - Aký je to svit <a href="songs/Koledy/Koledy%20-%20Ak%C3%BD%20je%20to%20svit.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Koledy/Koledy%20-%20Ak%C3%BD%20je%20to%20svit.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Koledy - Do hory, do lesa, valasi <a href="songs/Koledy/Koledy%20-%20Do%20hory%2C%20do%20lesa%2C%20valasi.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Koledy/Koledy%20-%20Do%20hory%2C%20do%20lesa%2C%20valasi.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Koledy - Dobrá novina <a href="songs/Koledy/Koledy%20-%20Dobr%C3%A1%20novina.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Koledy/Koledy%20-%20Dobr%C3%A1%20novina.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Aleluja <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Aleluja.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Aleluja.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Baránok Boží <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Bar%C3%A1nok%20Bo%C5%BE%C3%AD.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Bar%C3%A1nok%20Bo%C5%BE%C3%AD.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Dávam všetko <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20D%C3%A1vam%20v%C5%A1etko.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20D%C3%A1vam%20v%C5%A1etko.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Glória <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Gl%C3%B3ria.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Gl%C3%B3ria.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Hymna púte zaľúbených (Ty dávaš lásku nám) <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Hymna%20p%C3%BAte%20za%C4%BE%C3%BAben%C3%BDch.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Hymna%20p%C3%BAte%20za%C4%BE%C3%BAben%C3%BDch.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Nosíš ma nosíš <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Nos%C3%AD%C5%A1%20ma%20nos%C3%AD%C5%A1.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Nos%C3%AD%C5%A1%20ma%20nos%C3%AD%C5%A1.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Otče náš <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Ot%C4%8De%20n%C3%A1%C5%A1.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Ot%C4%8De%20n%C3%A1%C5%A1.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Pane, zmiluj sa <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Pane%2C%20zmiluj%20sa.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Pane%2C%20zmiluj%20sa.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Svadobná (Dievča v bielom závoji) <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Svadobn%C3%A1.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Svadobn%C3%A1.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Svätý <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Sv%C3%A4t%C3%BD.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Sv%C3%A4t%C3%BD.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Sľub <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20S%C4%BEub.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20S%C4%BEub.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Kresťanské - Vody nezahasia <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Vody%20nezahasia.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Kres%C5%A5ansk%C3%A9%20-%20Vody%20nezahasia.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Monika Ližbetin - Prisahám <a href="songs/Monika%20Li%C5%BEbetin/Monika%20Li%C5%BEbetin%20-%20Prisah%C3%A1m.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Monika%20Li%C5%BEbetin/Monika%20Li%C5%BEbetin%20-%20Prisah%C3%A1m.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Monika Ližbetin - S tebou kráčať <a href="songs/Monika%20Li%C5%BEbetin/Monika%20Li%C5%BEbetin%20-%20S%20tebou%20kr%C3%A1%C4%8Da%C5%A5.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Monika%20Li%C5%BEbetin/Monika%20Li%C5%BEbetin%20-%20S%20tebou%20kr%C3%A1%C4%8Da%C5%A5.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Rossa - Očeňka <a href="songs/Rossa/O%C4%8De%C5%88ka.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Rossa/O%C4%8De%C5%88ka.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+      <li>Sima Magušinová - Len ma ľúb <a href="songs/Sima%20Magu%C5%A1inov%C3%A1/Sima%20Magu%C5%A1inov%C3%A1%20-%20Len%20ma%20%C4%BE%C3%BAb.cho" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="songs/Sima%20Magu%C5%A1inov%C3%A1/Sima%20Magu%C5%A1inov%C3%A1%20-%20Len%20ma%20%C4%BE%C3%BAb.pdf" target="_blank" rel="noopener noreferrer">(pdf)</a></li>
+    </ul>
+  </body>
+  <footer>
+    <small>
+      Hosted on <a href="https://github.com/matejkubinec/my-songbook" target="_blank" rel="noopener norefferer">github</a> by <a href="https://github.com/matejkubinec" target="_blank" rel="noopener norefferer">matejkubinec</a>
+    </small>
+  </footer>
+</html>

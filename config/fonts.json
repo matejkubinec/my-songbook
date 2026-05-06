@@ -1,0 +1,30 @@
+{
+  "pdf": {
+    "fontdir": ["./fonts", "~/Library/Fonts"],
+    "fontconfig": {
+      "plex": {
+        "": "IBMPlexSerif-Regular.ttf",
+        "bold": "IBMPlexSerif-Bold.ttf"
+      }
+    },
+    "fonts": {
+      "title": { "description": "plex bold 12" },
+      "text": { "description": "plex 10" },
+      "chord": { "description": "plex bold 9" },
+      "chordfingers": {
+        "file": "ChordProSymbols.ttf",
+        "numbercolor": "background"
+      },
+      "comment": {
+        "description": "plex",
+        "size": 12,
+        "background": "foreground-light"
+      },
+      "comment_italic": { "description": "plex", "size": 12 },
+      "comment_box": { "description": "plex", "size": 12, "frame": 1 },
+      "tab": { "description": "plex", "size": 10 },
+      "toc": { "description": "plex", "size": 11 },
+      "grid": { "description": "plex bold 9" }
+    }
+  }
+}
