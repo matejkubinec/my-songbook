@@ -1,0 +1,65 @@
+{title: Hledá se žena}
+{artist: Mandrage}
+
+{start_of_grid shape="4x4+1" label="I:"}
+| Ami | Ami | G | E | 4x
+ {end_of_grid}
+
+{start_of_verse: V1:}
+[Am]Hledá se žena, m[G]ladá sleč[E]na,
+k[Am]dekoli ona může[G] být.    [E]
+Hledá se žena nebezpečná,
+jsem Sherlock Holmes a Billy the Kid.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[Am]Hledá se žena, d[G]obrá zpráva, m[F]ůže chtít víc, [G]než moje práva.
+[Am]Stále čekám, mar[C]ná sláva, b[G]udu hledat, kde[G] bud[G#]eš chtít.
+Raději volná, nežli vdaná. Raději žádná, nežli vadná,
+tady je každá rada velmi drahá.
+{end_of_chorus}
+
+{start_of_verse: V2:}
+Hledá se žena, všeho schopná,
+smrt nebo slávu a nic víc.
+Taková může být jen ona,
+hledá se žena pro můj byt.
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Hledá se žena, dobrá zpráva, může chtít víc, než moje práva.
+Stále čekám, marná sláva, budu hledat, kde budeš chtít.
+Raději volná, nežli vdaná. Raději žádná, nežli vadná,
+tady je každá rada velmi drahá.
+{end_of_chorus}
+
+{start_of_chorus}
+Hledá se žena, mladá slečna, hledá se žena nebezpečná.
+Ráno líná, v noci věčná, jenom ona to může být.
+Raději volná, nežli vdaná Raději žádná, nežli vadná,
+tady je každá rada velmi drahá.
+{end_of_chorus}
+
+{start_of_grid shape="4x4+1" label="B:"}
+| Ami | Ami | G | E | 4x
+ {end_of_grid}
+
+{start_of_chorus: R3:}
+Hledá se žena, dobrá zpráva, může chtít víc, než moje práva.
+Stále čekám, marná sláva, budu hledat, kde budeš chtít.
+Raději volná, nežli vdaná. Raději žádná, nežli vadná,
+tady je každá rada velmi drahá.
+{end_of_chorus}
+
+{start_of_chorus}
+Hledá se žena, mladá slečna, hledá se žena nebezpečná.
+Ráno líná, v noci věčná, jenom ona to může být.
+Raději volná, nežli vdaná Raději žádná, nežli vadná,
+tady je každá rada velmi drahá.
+{end_of_chorus}
+
+{comment: TODO: Outro?}
+
+{start_of_grid shape="4x4+1" label="O:"}
+| Ami | Ami | G | E | 4x
+{end_of_grid}

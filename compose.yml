@@ -5,10 +5,11 @@ services:
     image: chordpro/chordpro
     working_dir: /workspace
     volumes:
+      - ./config/notes:~/.config/chordpro
       - .:/workspace
     command:
       - chordpro
-      - --transcode=scandinavian
+      - --transcode=swedish
       - --filelist=${SONGBOOK_LIST:-list.txt}
       - --config=./config/guitar.json
       - --output=books/guitar.pdf

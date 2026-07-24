@@ -1,13 +1,18 @@
 {
-  "include": ["settings.json", "fonts.json"],
-  "instrument": { "type": "Bass", "description": "Standard Tuning" },
-  "diagrams": {
-    "show": "false"
+  "include": [
+    "settings.json"
+  ],
+  "instrument": {
+    "type": "Bass",
+    "description": "Standard Tuning"
   },
-  "formats": {
-    "title": {
-      "title": ["", "%{artist} - %{title}", ""],
-      "subtitle": ["", "", ""]
+  "diagrams": {
+    "show": "true"
+  },
+ "delegates": [
+    {
+      "name": "tab",
+      "type": "omit"
     }
-  }
+  ]
 }

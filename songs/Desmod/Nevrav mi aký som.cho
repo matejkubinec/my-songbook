@@ -1,0 +1,61 @@
+{title: Nevrav mi aký som}
+{artist: Desmod}
+{capo: 1}
+
+{start_of_grid shape="3x4+1" label="I:"}
+| F#m | E | D | D | 2x
+{end_of_grid}
+
+{start_of_verse: V1:}
+[F#m]Pár nenávistných[E] slov vyslovených od[D] nervov, [F#m]čo nedajú[E] nám [D]spať.
+[F#m]Pár sklamaných[E] pohľadov[D] a hnaní zlou náladou, [F#m]to opäť [E]chceme [D]vzdať.
+Skúsme to poslednýkrát. 
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[A]Nevrav mi aký som, [E]že mám chýb milión.
+[F#m]Skús sa ma spýtať:[D]„Máš ma stále rád?"
+A ja ti dám odpoveď, že si pre mňa celý svet,
+čo ty ku mne cítiš znásob tisíckrát.
+{end_of_chorus}
+
+{start_of_grid shape="3x4+1" label="B:"}
+| F#m | E | D | D |
+{end_of_grid}
+
+{start_of_verse: V2:}
+Pár rozhádaných dní, kedy sme nútení proti sebe stáť. 
+Pár zbytočných výbuchov o život so zárukou sa začíname báť.
+Tak skúsme to poslednýkrát. 
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Nevrav mi aký som, že mám chýb milión.
+Skús sa ma spýtať: „Máš ma stále rád?"
+A ja ti dám odpoveď, že si pre mňa celý svet,
+čo ty ku mne cítiš znásob tisíckrát.
+{end_of_chorus}
+
+{start_of_bridge:}
+[F#m]    [E]    [D]
+Prepáč mi to aký som, buď so mnou v dobrom aj v zlom. 
+Nič zlé už nesmie sa stať nám dvom. 
+{end_of_bridge}
+
+{start_of_grid shape="3x4"}
+| A | E | F#m | D |
+{end_of_grid}
+
+{start_of_chorus: R3:}
+/: Nevrav mi aký som, že mám chýb milión.
+Skús sa ma spýtať: „Máš ma stále rád?"
+A ja ti dám odpoveď, že si pre mňa celý svet,
+čo ty ku mne cítiš znásob tisíckrát. :/
+{end_of_chorus}
+
+{start_of_outro: O:}
+[A]Nevrav mi aká som, [E]že mám chýb milión.
+[F#m]Chcem sa ťa spýtať:[D]„Máš ma stále rád?"
+A ty mi dáš odpoveď, že ja som tvoj celý svet,
+čo ty ku mne cítiš znásob tisíckrát.
+{end_of_outro}

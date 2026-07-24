@@ -1,0 +1,58 @@
+{title: Držim ti miesto}
+{artist: TEAM}
+
+{start_of_grid shape="2x4" label="I:"}
+| Ami | Fmaj7 | G | C  C/B |
+| Ami | Fmaj7 | G | Ami . |
+{end_of_grid}
+
+{start_of_tab}
+e|-------------------------------------------------------|
+B|-------5----------------------------5------------------|
+G|---4-5-----7-5-4-----4-5-4------4-5-----7-5-4-----4----|
+D|-7-----------------5----------7-----------------5---7--|
+A|-------------------------------------------------------|
+E|-------------------------------------------------------|
+{end_of_tab}
+
+{start_of_verse: V1:}
+[Am]Keď budeš cí[F]tiť že život s [G]tebou z[C]ametá
+[Am]Keď ťa budú [F]chcieť do klubu[Bb] posled[F]ných
+[Am]Vieš, kde ma[F] môžeš nájsť bu[G]dem prá[C]ve tam
+[Am]Kde som čaka[F]l toľko prázdny[Bb]ch dní [F]
+{end_of_verse}
+
+{start_of_verse: V2:}
+Kúpim ti pivo alebo teplé gaštany
+A súmrak sa rozletí na kŕdeľ vrán
+Poviem ti pozri vzducholoď horí nad nami
+Príď tam k opusteným lavičkám
+{end_of_verse}
+
+{start_of_chorus: R1:}
+D[Am]ržím ti miesto, t[F]eraz už vieš to,[G] nemusíš sa báť[C] [C/B]
+[Am]Držím ti miesto, n[F]ie je to gesto, [G]ako t[Em]oľko krát[Am]
+{end_of_chorus}
+"
+{start_of_grid shape="3x3+1"}
+| Ami | Ami | D | nechať znieť
+{end_of_grid}
+
+{start_of_verse: V3:}
+Rozsvietim s tebou sedemnásť smutných zápaliek 
+keď sa nemôžeš vylízať z rán a krívd
+Kúpim ti v malej trafike lacno dávny smiech
+Nemusíš nič vysvetľovať, príď
+{end_of_verse}
+
+{start_of_chorus: R2:}
+//: Držím ti miesto, teraz už vieš to, nemusíš sa báť
+Držím ti miesto, nie je to gesto, ako toľko krát ://
+{end_of_chorus}
+
+{start_of_grid shape="2x4+1" label="O:"}
+| Ami | F | G | C  C/B |
+| Ami | F | G | Ami .  | 2x tlmene
+| Ami | F | G | C  C/B |
+| Ami | F | G | Ami .  | 2x
+{end_of_grid}

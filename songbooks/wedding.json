@@ -1,0 +1,54 @@
+{
+    "title": "Svadobné",
+    "cover": "songbooks/covers/wedding.pdf",
+    "songs": [
+        {
+            "path": "songs/Janais/Naveky.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Aleluja.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Baránok Boží.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Dávam všetko.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Glória.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Hymna púte zaľúbených.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Nosíš ma nosíš.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Otče náš.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Pane, zmiluj sa.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Sľub.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Svadobná.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Svätý.cho"
+        },
+        {
+            "path": "songs/Kresťanské/Vody nezahasia.cho"
+        },
+        {
+            "path": "songs/Monika Ližbetin/Prisahám.cho"
+        },
+        {
+            "path": "songs/Monika Ližbetin/S tebou kráčať.cho"
+        },
+        {
+            "path": "songs/Rossa/Očeňka.cho"
+        }
+    ]
+}

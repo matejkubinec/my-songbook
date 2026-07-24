@@ -1,0 +1,62 @@
+{title: Svařák}
+{artist: Harlej}
+
+{start_of_grid shape="3x5+30" label="I:"}
+| C B . | G . . | Am . . | C . . | G . . |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[G]Když jsem sám doma 2x
+[Am]poslouchám Vávra 2x
+[C]starýho vola 2x
+[D]pořád dokola 2x
+Chce to mít nápad 2x
+a ne pořád chrápat 2x
+já dostal jsem nápad 2x
+udělat mejdan 2x
+{end_of_verse}
+
+{start_of_chorus: R1:}
+/: [G]Mám rád svařené [Am]víno červené
+[C]já mám rád rád [G]svařák :/
+{end_of_chorus}
+
+{start_of_grid shape="3x5+30"}
+| C B . | G . . | Am . . | C . . | G . . |
+{end_of_grid}
+
+{start_of_verse: V2:}
+Se známou partou 2x
+domluva krátká 2x
+zejtra v šest hodin 2x
+vstup jedna lampa 2x
+Začíná mejdan 2x
+na 200 procent 2x
+my plníme plány 2x
+rostou nám blány 2x
+{end_of_verse}
+
+{start_of_chorus: R2:}
+/: Mám rád svařené víno červené
+já mám rád rád svařák :/
+{end_of_chorus}
+
+{start_of_grid shape="3x5+30"}
+| C B . | G . . | Am . . | C . . | G . . |
+{end_of_grid}
+
+{start_of_verse: V3:}
+Když jsem sám doma
+poslouchám Vávra
+starýho vola
+pořád dokola
+Chce to mít nápad
+a ne pořád chrápat
+já dostal jsem nápad
+udělat mejdan
+{end_of_verse}
+
+{start_of_chorus: R3:}
+//: Mám rád svařené víno červené
+já mám rád rád svařák :// 4x
+{end_of_chorus}

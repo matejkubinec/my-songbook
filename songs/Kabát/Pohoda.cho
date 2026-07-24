@@ -1,0 +1,63 @@
+{title: Pohoda}
+{artist: Kabát}
+
+{start_of_grid shape="3x4+1" label="I:"}
+| D | A | E  | Bm | 2x
+| D | A | Bm | %  |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[F#m]Vezmu tě má milá r[C#m]ovnou k nám
+kolem louky lesy hejna vran,
+[F#m]všude samá k[E]ráva sa[Bm]mej vůl.
+{end_of_verse}
+
+{start_of_verse}
+Máme kino, máme hospodu,
+v obci všeobecnou pohodu,
+máme hujer, žito, chléb i sůl.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[D]Když se u nás chlapi p[A]operou, tak jenom n[E]ožem, a nebo s[Bm]ekerou.
+V zimě tam [D]dlouhý noci j[A]sou, a tuhej m[Bm]ráz.
+Jak jsou naše cesty zavátý, tak vezmem vidle, a nebo lopaty,
+když něco nejde, co na tom sejde, my máme čas.
+{end_of_chorus}
+
+{start_of_verse: V2:}
+Chlapi někdy trochu prudký jsou,
+holky s motykama tancujou,
+s ranní rosou táhnou do polí,
+nikdo se tam nikam nežene,
+máme traktory a né, že né,
+až to spatříš ledy povolí.
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Když se u nás chlapi poperou, tak jenom nožem, a nebo sekerou.
+V zimě tam dlouhý noci jsou, a tuhej mráz. (Tak ja to mám rád)
+Jak jsou naše cesty zavátý, tak vezmem vidle, a nebo lopaty,
+když něco nejde, co na tom sejde, my máme čas.
+{end_of_chorus}
+
+{start_of_grid}
+| G | F#m | F  | E |
+| G | F#m | Bm | % |
+{end_of_grid}
+
+{start_of_verse: V3:}
+Hoří les a hoří rodnej dům,
+hoří velkostatek sousedům,
+to je smůla, drahá podívej,
+hasiči to stejně přejedou,
+oni si moc dobře nevedou,
+chovej sirky ať je neviděj.
+{end_of_verse}
+
+{start_of_chorus: R3:}
+/: Když se u nás chlapi poperou, tak jenom nožem, a nebo sekerou.
+V zimě tam dlouhý noci jsou, a tuhej mráz.
+Jak jsou naše cesty zavátý, tak vezmem vidle, a nebo lopaty,
+když něco nejde, co na tom sejde, my máme čas. :/
+{end_of_chorus}

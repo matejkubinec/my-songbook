@@ -1,0 +1,54 @@
+{artist:Kollárovci}
+{title:Mariša}
+
+{start_of_grid shape="4x4+1" label="I:"}
+| Bb | F | C | F | 2x
+{end_of_grid}
+
+{start_of_verse label="V1:"}
+/: [F]Bije mamka, bije mamka, [Bb]bije ma,
+[C]a ja ľúbim, a ja ľúbim [F]len teba :/
+{end_of_verse}
+
+{start_of_chorus label="R1:"}
+[F]Mariša pusu daj, mamy sa [C]nepýtaj,
+[C]veď mama taká bola, keď ešte [Bb]mladá [F]bola.
+Mariša pusu dala, mamy sa nepýtala,
+veď mama taká bola, keď ešte mladá bola.
+{end_of_chorus}
+
+{start_of_verse label="V2:"}
+/: Sedí mamka, sedí mamka v kostole,
+a ja s milou, a ja s milou v stodole :/
+{end_of_verse}
+
+{start_of_chorus label="R2:"}
+Mariša pusu daj, mamy sa nepýtaj,
+veď mama taká bola, keď ešte mladá bola.
+Mariša pusu dala, mamy sa nepýtala,
+veď mama taká bola, keď ešte mladá bola.
+{end_of_chorus}
+
+{start_of_verse label="V3:"}
+V kostole sa, v kostole sa modlili,
+a my s milou, a my s milou hrešili
+{end_of_verse}
+
+{start_of_chorus label="R3:"}
+Mariša pusu daj, mamy sa nepýtaj,
+veď mama taká bola, keď ešte mladá bola.
+Mariša pusu dala, mamy sa nepýtala,
+veď mama taká bola, keď ešte mladá bola.
+{end_of_chorus}
+
+{start_of_verse label="V4:"}
+/: [G]Bije mamka, bije mamka, [C]bije ma,
+[D]a ja ľúbim, a ja ľúbim [G]len teba :/
+{end_of_verse}
+
+{start_of_chorus label="R4:"}
+[G]Mariša pusu daj, mamy sa [D]nepýtaj,
+[D]veď mama taká bola, keď ešte [C]mladá [G]bola.
+Mariša pusu dala, mamy sa nepýtala,
+veď mama taká bola, keď ešte mladá bola.
+{end_of_chorus}

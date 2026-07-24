@@ -6,12 +6,17 @@
     {
       "label": "chordpro",
       "type": "shell",
-      "command": "docker run -v \"${workspaceFolder}:/workspace\" -w /workspace matejkubinec/chordpro \"${relativeFile}\" --config=./config/guitar.json --transcode=scandinavian | open -f -a Preview",
+      "command": "${workspaceFolder}/scripts/convert-song.sh \"${relativeFile}\" && open \"${relativeFileDirname}/${fileBasenameNoExtension}.pdf\"",
       "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "showReuseMessage": false
       }
     }
-  ]
+  ],
 }
