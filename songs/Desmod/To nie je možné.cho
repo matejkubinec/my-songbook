@@ -27,7 +27,7 @@ To nie je možné
 {end_of_chorus}
 
 {start_of_grid shape="3x4+1"}
-| Dm | B | F | C | 2x
+| Dm | Bb | F | C | 2x
 {end_of_grid}
 
 {start_of_verse: V2:}
@@ -43,6 +43,10 @@ To nie je možné, len ja chyby mám
 To nie je možné, byť dokonalý
 To nie je možné
 {end_of_chorus}
+
+{start_of_grid shape="3x4+1" label="S:"}
+| Dm | Bb | F | C | 4x
+{end_of_grid}
 
 {start_of_bridge: B:}
 [Dmi]Odpusť [Bb]mami, [F]že ja som [C]ten

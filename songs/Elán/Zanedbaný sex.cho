@@ -44,6 +44,10 @@ Mám to rád, si nežné zviera
 Mám to rád, na to sa neumiera.
 {end_of_chorus}
 
+{start_of_grid shape="4x4+1" label="S:"}
+| D | Em | G | A | 8x
+{end_of_grid}
+
 {start_of_bridge: B:}
 Ak si ako väzeň v sebe zavretý
 Ak sa ti táto pieseň lepí na päty

@@ -40,11 +40,11 @@ No ale cez víkend mám vždy nádherný svet
 # V piatok si realitu odstrániť z hlavy do žíl
 # {end_of_chorus}
 
-{start_of_grid 4x4: S:}
-| C | G | Am | G  |
-| C | F | C  | Am |
-| G | % | F  | %  |
-{end_of_grid}
+# {start_of_grid 4x4: S:}
+# | C | G | Am | G  |
+# | C | F | C  | Am |
+# | G | % | F  | %  |
+# {end_of_grid}
 
 {start_of_chorus: R:}
 //: [C]V piatok podvečer si [G]zresetujme hlavy

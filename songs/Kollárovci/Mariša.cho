@@ -1,9 +1,9 @@
 {artist:Kollárovci}
 {title:Mariša}
 
-{start_of_grid shape="4x4+1" label="I:"}
-| Bb | F | C | F | 2x
-{end_of_grid}
+# {start_of_grid shape="4x4+1" label="I:"}
+# | Bb | F | C | F | 2x
+# {end_of_grid}
 
 {start_of_verse label="V1:"}
 /: [F]Bije mamka, bije mamka, [Bb]bije ma,
