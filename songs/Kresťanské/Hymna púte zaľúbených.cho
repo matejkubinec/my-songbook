@@ -2,21 +2,19 @@
 {artist: Kresťanské}
 {x_list: wedding}
 
-{start_of_verse}
+{start_of_verse: V1:}
    [C]               [Fmaj]
 My prosíme ťa, Pane, daj nám požehnanie
 [Am]      [G]        [Fmaj]
 a zachráň nás od prázdnych ciest.
-{end_of_verse}
 
-{start_of_verse}
      [C]                   [Fmaj]
 Nech tvoja láska, Pane, sa našou láskou stane
      [Am]       [G]   [Fmaj]
 nech necháme sa tebou viesť.
 {end_of_verse}
 
-{start_of_chorus: Refrén}
+{start_of_chorus: R:}
    [F]   [G]   [C]     [F]        [G]  [C]
 Ty dávaš lásku nám, čo neberie lež dáva,
        [F]         [G]   [Am]            [F]    [G]      [C]
