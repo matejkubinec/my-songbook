@@ -73,8 +73,10 @@ def main() -> int:
     list_lines = ["<ul id=\"songs\">"]
     for artist, title, cho_href, pdf_href in entries:
         display_label = f"{artist} - {title}" if artist else title
+        letter = display_label[0].upper() if display_label else ""
         list_lines.append(
-            '  <li>{title} <a href="{cho}" target="_blank" rel="noopener noreferrer">(cho)</a> <a href="{pdf}" target="_blank" rel="noopener noreferrer">(pdf)</a></li>'.format(
+            '  <li data-letter="{letter}"><a href="{pdf}" rel="noopener noreferrer">{title}</a> <a href="{cho}" target="_blank" rel="noopener noreferrer">cho</a></li>'.format(
+                letter=letter,
                 title=html.escape(display_label),
                 cho=html.escape(cho_href, quote=True),
                 pdf=html.escape(pdf_href, quote=True),
