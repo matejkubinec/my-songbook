@@ -1,0 +1,41 @@
+// Definitions of Note names.
+//
+// Swedish notation:
+//   C D E F G A H
+// Flats use b (Db, Eb, Gb, Ab, B)
+// Sharps use # (C#, D#, F#, G#, A#)
+
+config {
+    type :        notes
+    title :       "Swedish Notation"
+    description : "C, D, E, F, G, A, B, H"
+}
+
+// Note (chord root) names.
+// In case of alternatives, the first one is used for output.
+notes : {
+
+    system : swedish
+
+    sharp : [
+        C  [ C# C♯ ]
+        D  [ D# D♯ ]
+        E
+        F  [ F# F♯ ]
+        G  [ G# G♯ ]
+        A  [ A# A♯ ]
+        H
+    ]
+
+    flat : [
+                   C
+        [ Db D♭ ]  D
+        [ Eb E♭ ]  E
+                   F
+        [ Gb G♭ ]  G
+        [ Ab A♭ ]  A
+        [ B Bb B♭ ] H
+    ]
+}
+
+// End of config.

@@ -1,0 +1,57 @@
+{title: Ráno}
+{artist: Iné Kafe}
+
+{start_of_grid shape="4x4" label="I:"}
+| Am | % | % | % |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[Am]Keď máš doma opäť ďalší [F]problém,
+[G]keď fotra s matkou berú [C]zas tie staré mindráky,
+[Am]že neuspel si opäť v ško[F]le,
+[G]jak sa to správaš a čo t[C]o nosíš[C/H] za známky.
+Keď frajerka ti spáva s iným,
+s ktorým si včera pil minimálne do rána.
+A sám si opäť zostal s tými,
+[G]ktorí ťa vedú nevieš kam.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[Am]Keď včera bola t[F]ma, tak dn[G]es príde ráno
+[C]a s ním sa skonč[F]í sen, čo [G]kradol ti spánok.
+A svitanie ti úsmev na tvári pripraví.
+A ty vyhráš ten boj o kľúče od klietky
+a aj keď budeš sám, sám proti všetkým,
+ešte nič nekončí, naopak, všetko práve začína.
+{end_of_chorus}
+
+{start_of_grid shape="4x4" label="B:"}
+| Am | % | % | % |
+{end_of_grid}
+
+
+{start_of_verse: V2:}
+Keď ti v televízii veľkí klamú,
+všemožne snažia sa zakryť svoje omyly.
+A na ulici by ťa fízli za cigu z trávy
+najradšej do basy hodili.
+A kruh sa ti už uzatvára, už je ti jasné,
+život nebeží, jak by si chcel.
+Ešte ti tu zostáva nádej
+a končiť s tým prečo.
+{end_of_verse}
+
+{chorus: R2:}
+
+{start_of_grid shape="4x4+1" label="B:"}
+| Ami | F | G | C   |
+| Ami | F | G | C/H |
+| Ami | F | G | C   |
+| Ami | F | G | %   | (ako sloha)
+{end_of_grid}
+
+{chorus: R3:}
+
+{start_of_grid shape="4x4" label="O:"}
+| Am | % | % | % |
+{end_of_grid}

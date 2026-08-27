@@ -1,0 +1,69 @@
+{title: Reklama na ticho}
+{artist: TEAM}
+{columns: 2}
+
+{start_of_grid shape="5x1+1" label="I:"}
+| Am | 4x
+{end_of_grid}
+
+{start_of_verse}
+[Am]Reklamu na ticho dnes v telke dávajú
+[Am]Každý z nás spozornie l[F]en čo zbad[G]á ju
+[Am]Reklamu na ticho ten súčasný hit
+[Am]Krásnym tichom z dovozu[F] Naplňte s[G]voj byt
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[F]Môžete ho [G]zohnať len[C] pod rukou
+[F]Nádherné t[G]icho hôr  [C]
+[F]Výberové t[G]icho so zá[C]rukou
+[F]Získa ho k[G]to príde s[Am]kôr
+{end_of_chorus}
+
+{start_of_grid}
+| Am | 2x
+{end_of_grid}
+
+{start_of_verse: V2:}
+Pred Tuzákom stojí rad dlhý, pomalý
+V tlačenici musíš stáť ticho dostali
+v konzervách a plechovkách od Coca Coly
+také čerstvé ticho ach až to zabolí
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Môžete ho zohnať len pod rukou
+Nádherné ticho hôr
+Výberové ticho so zárukou
+Získa ho kto príde skôr
+{end_of_chorus}
+
+{start_of_bridge: B1:}
+[Am]Reklama na tich[Em]o zo všet[Am]kých strán zni[Em]e
+[Am]Vo farbe a s hu[Em]dbou je t[F]o úžasné     [G]
+[Am]Decibely hluku [Em]to ticho [Am]znásobí       [Em]
+[Am]Minulo sa ticho[Em] nie sú z[F]ásoby       [G]
+{end_of_bridge}
+
+{start_of_chorus: R2:}
+Môžete ho zohnať len pod rukou
+Nádherné ticho hôr  
+Výberové ticho so zárukou
+Získa ho kto príde skôr
+{end_of_chorus}
+
+{column_break}
+{start_of_verse: V3:}
+[Bbm]Pred Tuzákom stoj[F#m]í rad [Bbm]dlhý, pomalý    [Fm]
+[Bbm]V tlačenici musíš[Fm] stáť [F#]ticho dostali     [G#]
+[Bbm]V konzervách a v [Fm]plecho[Bbm]vkách od Coca Co[Fm]ly
+[Bbm]Také čerstvé tich[Fm]o ach [F#]až to zabolí      [G#]
+{end_of_verse}
+
+{transpose: 1}
+{start_of_chorus: R3:}
+/: [F]Môžete ho [G]zohnať len[C] pod rukou
+[F]Nádherné t[G]icho hôr  [C]
+[F]Výberové t[G]icho so zá[C]rukou
+[F]Získa ho k[G]to príde s[Am]kôr :/
+{end_of_chorus}

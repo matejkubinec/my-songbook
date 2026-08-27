@@ -1,0 +1,19 @@
+{title: Baránok Boží}
+{artist: Kresťanské}
+{x_list: wedding}
+
+{define: Amaj7/B base-fret 1 frets 0 2 2 2 2 4}
+
+{start_of_verse}
+[E]     [C#m] [A]         [A7]
+Baránok Boží, ty snímaš hriechy sveta,
+[E]  [C#m] [F#m]  [B7]  
+zmiluj sa nad nami.  (2x)
+
+[E]     [C#m] [A7]            [Amaj7/B] 
+Baránok Boží, ty snímaš hriechy sveta,
+[E]   [B7]  [A7][B7][A7]  
+daruj nám pokoj,
+[E]  [B7] [A7][B7][E]
+daruj nám po-koj.
+{end_of_verse}

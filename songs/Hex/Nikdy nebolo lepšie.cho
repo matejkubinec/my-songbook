@@ -1,0 +1,72 @@
+{title: Nikdy nebolo lepšie}
+{artist: Hex}
+
+{start_of_grid shape="3x4+1" label="I:"}
+| A | Emi | G | D | 2x
+{end_of_grid}
+
+{start_of_verse label="V1:"}
+Z[A]dá sa že je v[Em]šetko ako má byť
+v[G]o vzduchu cít[D]iť jasný deň
+k oblohe stúpa pomaly dym
+hostia prídu o piatej.
+{end_of_verse}
+
+{start_of_verse}
+Vstup bez vážnych názorov
+dnes sa budeme zabávať
+po tme blúdiť záhradou
+kým noc neskončí...
+{end_of_verse}
+
+{start_of_grid shape="3x4+1"}
+| A | Emi | G | D | 2x
+{end_of_grid}
+
+{start_of_verse label="V2:"}
+Dnes budeme dýchať ten najlepší vzduch
+nech nás hlava nebolí.
+Len s príjemných vecí je veselý duch
+po nás mesiac zahoríí.
+{end_of_verse}
+
+{start_of_verse}
+Vstup bez nudných nápadov
+dnes sa budeme zabávať
+po tme blúdiť záhradou
+kým noc neskončí...
+{end_of_verse}
+
+{start_of_grid}
+| Bb | A |
+{end_of_grid}
+
+{start_of_chorus label="R1:"}
+N[E]ikdy nebolo l[G]epšie, ako v t[D]úto noc nech t[A]rvá večne.
+Celé nebo je jasné, až do rána pokiaľ mesiac zhasne.
+Nikdy nebolo lepšie, ako v túto noc nech trvá večne.
+Celé nebo je jasné, až do rána pokiaľ mesiac zhasne.
+{end_of_chorus}
+
+{start_of_verse label="V2:"}
+Z rádia hučí otravný hit
+tma sa blíži verandou
+niekto sa háda a všetci chcú žiť
+v hluku strácam význam slooov.
+{end_of_verse}
+
+{start_of_verse}
+Vstup bez vážnych názrov
+dnes sa budeme zabávať
+v kruhu známych a ich psov
+kým noc neskonči...
+{end_of_verse}
+
+{start_of_grid}
+| Bb | A |
+{end_of_grid}
+
+{start_of_chorus label="R2:"}
+/: Nikdy nebolo lepšie, ako v túto noc nech trvá večne.
+Celé nebo je jasné, až do rána pokiaľ mesiac zhasne. :/
+{end_of_chorus}

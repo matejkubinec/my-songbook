@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>matejkubinec | my-songbook</title>
+    <meta
+      name="description"
+      content="Chord sheets and song books, browsable and searchable."
+    />
+    <style>
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("config/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("config/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        --bg: #fafafa;
+        --surface: #ffffff;
+        --surface-hover: #f4f4f5;
+        --border: #e4e4e7;
+        --text: #18181b;
+        --text-muted: #71717a;
+        --accent: #2563eb;
+        --accent-soft: #eff6ff;
+        --accent2: #d97706;
+        --accent2-soft: #fffbeb;
+        --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+        --radius: 12px;
+        --radius-sm: 8px;
+        color-scheme: light;
+      }
+
+      :root[data-theme="dark"] {
+        --bg: #0a0a0b;
+        --surface: #18181b;
+        --surface-hover: #202023;
+        --border: #2a2a2e;
+        --text: #f4f4f5;
+        --text-muted: #a1a1aa;
+        --accent: #60a5fa;
+        --accent-soft: rgba(96, 165, 250, 0.12);
+        --accent2: #fbbf24;
+        --accent2-soft: rgba(251, 191, 36, 0.12);
+        --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.35);
+        color-scheme: dark;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --bg: #0a0a0b;
+          --surface: #18181b;
+          --surface-hover: #202023;
+          --border: #2a2a2e;
+          --text: #f4f4f5;
+          --text-muted: #a1a1aa;
+          --accent: #60a5fa;
+          --accent-soft: rgba(96, 165, 250, 0.12);
+          --accent2: #fbbf24;
+          --accent2-soft: rgba(251, 191, 36, 0.12);
+          --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.35);
+          color-scheme: dark;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "IBMPlexSans",
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        transition:
+          background-color 0.2s ease,
+          color 0.2s ease;
+        margin: 0;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 clamp(16px, 4vw, 32px) 64px;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 16px;
+      }
+
+      .header-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: clamp(16px, 4vw, 28px) clamp(16px, 4vw, 32px) 16px;
+      }
+
+      .title-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      h1 {
+        font-size: clamp(1.4rem, 4vw, 1.8rem);
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+
+      .theme-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--text-muted);
+        cursor: pointer;
+        flex-shrink: 0;
+        transition:
+          background-color 0.15s ease,
+          color 0.15s ease,
+          border-color 0.15s ease;
+      }
+
+      .theme-toggle:hover {
+        background: var(--surface-hover);
+        color: var(--text);
+      }
+
+      .theme-toggle svg {
+        width: 18px;
+        height: 18px;
+      }
+
+      .theme-toggle .icon-moon {
+        display: none;
+      }
+      :root[data-theme="dark"] .theme-toggle .icon-sun {
+        display: none;
+      }
+      :root[data-theme="dark"] .theme-toggle .icon-moon {
+        display: block;
+      }
+
+      .search-box {
+        position: relative;
+        margin-top: 16px;
+      }
+
+      .search-box svg {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 17px;
+        height: 17px;
+        color: var(--text-muted);
+        pointer-events: none;
+      }
+
+      #search {
+        width: 100%;
+        font-family: inherit;
+        font-size: 0.95rem;
+        padding: 11px 14px 11px 40px;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--text);
+        outline: none;
+        transition:
+          border-color 0.15s ease,
+          box-shadow 0.15s ease;
+      }
+
+      #search::placeholder {
+        color: var(--text-muted);
+      }
+
+      #search:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+
+      .count {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+
+      main {
+        padding-top: 28px;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-muted);
+        margin: 0 0 12px;
+      }
+
+      /* Books */
+      #books {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 10px;
+      }
+
+      #books li {
+        padding: 0;
+      }
+
+      #books li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 14px 16px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        transition:
+          border-color 0.15s ease,
+          transform 0.15s ease;
+      }
+
+      #books li:hover {
+        border-color: var(--accent);
+        transform: translateY(-1px);
+      }
+
+      #books li > a:first-child {
+        font-size: 0.95rem;
+        flex: 1;
+        color: var(--text);
+        text-decoration: none;
+      }
+
+      #books li > a:first-child:hover {
+        color: var(--accent);
+      }
+
+      #books li a:not(:first-child) {
+        text-decoration: none;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border-radius: 999px;
+        color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      #books li a:nth-child(3) {
+        color: var(--accent2);
+        background: var(--accent2-soft);
+      }
+
+      #books li a:not(:first-child):hover {
+        text-decoration: none;
+        filter: brightness(1.1);
+      }
+
+      /* Songs */
+      #songs {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 8px;
+      }
+
+      #songs li {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 4px 8px;
+        padding: 12px 14px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        transition:
+          border-color 0.15s ease,
+          background-color 0.15s ease;
+      }
+
+      #songs li:hover {
+        border-color: var(--accent);
+        background: var(--surface-hover);
+      }
+
+      #songs li.hidden {
+        display: none;
+      }
+
+      #songs li.letter-divider {
+        grid-column: 1 / -1;
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 8px 2px 0;
+        margin: 8px 0 -2px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: var(--accent);
+        pointer-events: none;
+      }
+
+      #songs li.letter-divider:hover {
+        background: none;
+        border: none;
+      }
+
+      #songs li.letter-divider.hidden {
+        display: none;
+      }
+
+      #songs li.letter-divider:first-child {
+        margin-top: 0;
+        padding-top: 0;
+      }
+
+      .jump-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 12px;
+      }
+
+      .jump-nav button {
+        font-family: inherit;
+        font-size: 0.72rem;
+        font-weight: 700;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--text-muted);
+        border-radius: 6px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        transition:
+          border-color 0.15s ease,
+          color 0.15s ease,
+          background-color 0.15s ease;
+      }
+
+      .jump-nav button:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .jump-nav button:disabled {
+        opacity: 0.3;
+        cursor: default;
+      }
+
+      .jump-nav button:disabled:hover {
+        border-color: var(--border);
+        color: var(--text-muted);
+      }
+
+      #songs li a:first-child {
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: var(--text);
+        flex: 1 1 auto;
+        min-width: 140px;
+      }
+
+      #songs li a:first-child:hover {
+        color: var(--accent);
+      }
+
+      #songs li a:not(:first-child) {
+        text-decoration: none;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--accent2);
+        background: var(--accent2-soft);
+        padding: 3px 8px;
+        border-radius: 999px;
+      }
+
+      #songs li a:nth-child(2) {
+        color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      #songs li a:nth-child(3) {
+        color: var(--accent2);
+        background: var(--accent2-soft);
+      }
+
+      #songs li a:not(:first-child):hover {
+        text-decoration: none;
+        filter: brightness(1.1);
+      }
+
+      #songs li a:nth-child(2) {
+        margin-left: auto;
+      }
+
+      .no-results {
+        display: none;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        padding: 24px 4px;
+        text-align: center;
+      }
+
+      .no-results.visible {
+        display: block;
+      }
+
+      footer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 24px clamp(16px, 4vw, 32px) 40px;
+      }
+
+      footer small {
+        color: var(--text-muted);
+        font-size: 0.8rem;
+      }
+
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 480px) {
+        #songs {
+          grid-template-columns: 1fr;
+        }
+        #songs li a:not(:first-child) {
+          font-size: 0.68rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="title-row">
+          <h1>Songbook</h1>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle dark mode"
+          >
+            <svg
+              class="icon-sun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+              ></path>
+            </svg>
+            <svg
+              class="icon-moon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="search-box">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+          <input
+            type="search"
+            id="search"
+            placeholder="Search songs by artist or title…"
+            autocomplete="off"
+          />
+        </div>
+        <div class="count" id="count"></div>
+        <nav class="jump-nav" id="jumpNav"></nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <section>
+        <h2>Books</h2>
+        <ul id="books">
+          <li>
+            <a
+              href="books/masterbook/masterbook.guitar.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Masterbook</a
+            >
+            <a
+              href="books/masterbook/masterbook.bass.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-type="bass"
+              >bass</a
+            >
+          </li>
+          <li>
+            <a
+              href="books/30+30+01/30+30+01.guitar.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >30+30+01</a
+            >
+            <a
+              href="books/30+30+01/30+30+01.bass.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-type="bass"
+              >bass</a
+            >
+          </li>
+          <li>
+            <a
+              href="books/wedding/wedding.guitar.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wedding</a
+            >
+            <a
+              href="books/wedding/wedding.bass.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-type="bass"
+              >bass</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Songs</h2>
+        <ul id="songs">
+          <li data-letter="A"><a href="songs/Adam%20%C4%8Eurica/Zatancuj%20si%20so%20mnou.pdf" rel="noopener noreferrer">Adam Ďurica - Zatancuj si so mnou</a> <a href="songs/Adam%20%C4%8Eurica/Zatancuj%20si%20so%20mnou.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="B"><a href="songs/Blur/Song%202.pdf" rel="noopener noreferrer">Blur - Song 2</a> <a href="songs/Blur/Song%202.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="C"><a href="songs/Chinaski/V%C3%ADno.pdf" rel="noopener noreferrer">Chinaski - Víno</a> <a href="songs/Chinaski/V%C3%ADno.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="C"><a href="songs/Chinaski/V%C3%ADno%20%5Btab%5D.pdf" rel="noopener noreferrer">Chinaski - Víno [tab]</a> <a href="songs/Chinaski/V%C3%ADno%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="D"><a href="songs/Dan%20B%C3%A1rta/On%20my%20head.pdf" rel="noopener noreferrer">Dan Bárta - On my head</a> <a href="songs/Dan%20B%C3%A1rta/On%20my%20head.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="D"><a href="songs/Desmod/Hemeroidy.pdf" rel="noopener noreferrer">Desmod - Hemeroidy</a> <a href="songs/Desmod/Hemeroidy.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="D"><a href="songs/Desmod/Na%20tebe%20z%C3%A1visl%C3%BD.pdf" rel="noopener noreferrer">Desmod - Na tebe závislý</a> <a href="songs/Desmod/Na%20tebe%20z%C3%A1visl%C3%BD.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="D"><a href="songs/Desmod/Nevrav%20mi%20ak%C3%BD%20som.pdf" rel="noopener noreferrer">Desmod - Nevrav mi aký som</a> <a href="songs/Desmod/Nevrav%20mi%20ak%C3%BD%20som.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="D"><a href="songs/Desmod/To%20nie%20je%20mo%C5%BEn%C3%A9.pdf" rel="noopener noreferrer">Desmod - To nie je možné</a> <a href="songs/Desmod/To%20nie%20je%20mo%C5%BEn%C3%A9.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/Ego/%C5%BDijeme%20len%20raz.pdf" rel="noopener noreferrer">Ego - Žijeme len raz</a> <a href="songs/Ego/%C5%BDijeme%20len%20raz.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Bosorka.pdf" rel="noopener noreferrer">Elán - Bosorka</a> <a href="songs/El%C3%A1n/Bosorka.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Bosorka%20%5BA%5D.pdf" rel="noopener noreferrer">Elán - Bosorka [A]</a> <a href="songs/El%C3%A1n/Bosorka%20%5BA%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Bosorka%20%5BB%5D.pdf" rel="noopener noreferrer">Elán - Bosorka [B]</a> <a href="songs/El%C3%A1n/Bosorka%20%5BB%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov.pdf" rel="noopener noreferrer">Elán - Sestrička z Kramárov</a> <a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov%20%5BAm%5D.pdf" rel="noopener noreferrer">Elán - Sestrička z Kramárov [Am]</a> <a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov%20%5BAm%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov%20%5BBm%5D.pdf" rel="noopener noreferrer">Elán - Sestrička z Kramárov [Bm]</a> <a href="songs/El%C3%A1n/Sestri%C4%8Dka%20z%20Kram%C3%A1rov%20%5BBm%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Vymyslen%C3%A1.pdf" rel="noopener noreferrer">Elán - Vymyslená</a> <a href="songs/El%C3%A1n/Vymyslen%C3%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Zanedban%C3%BD%20sex.pdf" rel="noopener noreferrer">Elán - Zanedbaný sex</a> <a href="songs/El%C3%A1n/Zanedban%C3%BD%20sex.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="E"><a href="songs/El%C3%A1n/Zanedban%C3%BD%20sex%20%5Btab%5D.pdf" rel="noopener noreferrer">Elán - Zanedbaný sex [tab]</a> <a href="songs/El%C3%A1n/Zanedban%C3%BD%20sex%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="G"><a href="songs/Gladiator/L%C3%A1ska.pdf" rel="noopener noreferrer">Gladiator - Láska</a> <a href="songs/Gladiator/L%C3%A1ska.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Harlej/Sva%C5%99%C3%A1k.pdf" rel="noopener noreferrer">Harlej - Svařák</a> <a href="songs/Harlej/Sva%C5%99%C3%A1k.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hex/Ke%C4%8F%20sme%20sami.pdf" rel="noopener noreferrer">Hex - Keď sme sami</a> <a href="songs/Hex/Ke%C4%8F%20sme%20sami.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hex/Nikdy%20nebolo%20lep%C5%A1ie.pdf" rel="noopener noreferrer">Hex - Nikdy nebolo lepšie</a> <a href="songs/Hex/Nikdy%20nebolo%20lep%C5%A1ie.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hex/Nikdy%20nebolo%20lep%C5%A1ie%20%5Btab%5D.pdf" rel="noopener noreferrer">Hex - Nikdy nebolo lepšie [tab]</a> <a href="songs/Hex/Nikdy%20nebolo%20lep%C5%A1ie%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hex/V%20piatok%20podve%C4%8Der.pdf" rel="noopener noreferrer">Hex - V piatok podvečer</a> <a href="songs/Hex/V%20piatok%20podve%C4%8Der.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hex/Viano%C4%8Dn%C3%BD%20Karol.pdf" rel="noopener noreferrer">Hex - Vianočný Karol</a> <a href="songs/Hex/Viano%C4%8Dn%C3%BD%20Karol.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/LAG.pdf" rel="noopener noreferrer">Horkýźe Slíže - L.A.G. song</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/LAG.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/L%C3%ADza%20a%20Wendy.pdf" rel="noopener noreferrer">Horkýže Slíže - Líza a Wendy</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/L%C3%ADza%20a%20Wendy.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/L%C3%ADza%20a%20Wendy%20%5Btab%5D.pdf" rel="noopener noreferrer">Horkýže Slíže - Líza a Wendy [tab]</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/L%C3%ADza%20a%20Wendy%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="H"><a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/Uk%C3%A1%C5%BE%20tu%20tvoju%20zoo.pdf" rel="noopener noreferrer">Horkýže Slíže - Ukáž tu tvoju zoo</a> <a href="songs/Hork%C3%BD%C5%BEe%20Sl%C3%AD%C5%BEe/Uk%C3%A1%C5%BE%20tu%20tvoju%20zoo.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/IMT%20Smile/Nepozn%C3%A1m.pdf" rel="noopener noreferrer">IMT SMILE - Nepoznám</a> <a href="songs/IMT%20Smile/Nepozn%C3%A1m.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/IMT%20Smile/%C4%BDudia%20nie%20s%C3%BA%20zl%C3%AD.pdf" rel="noopener noreferrer">IMT Smile - Ľudia nie sú zlí</a> <a href="songs/IMT%20Smile/%C4%BDudia%20nie%20s%C3%BA%20zl%C3%AD.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/In%C3%A9%20Kafe/Ru%C5%BEov%C3%A1%20z%C3%A1hrada.pdf" rel="noopener noreferrer">Iné Kafe - Ružová záhrada</a> <a href="songs/In%C3%A9%20Kafe/Ru%C5%BEov%C3%A1%20z%C3%A1hrada.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/In%C3%A9%20Kafe/R%C3%A1no.pdf" rel="noopener noreferrer">Iné Kafe - Ráno</a> <a href="songs/In%C3%A9%20Kafe/R%C3%A1no.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/In%C3%A9%20Kafe/%C4%8Cumil.pdf" rel="noopener noreferrer">Iné Kafe - Čumil</a> <a href="songs/In%C3%A9%20Kafe/%C4%8Cumil.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="I"><a href="songs/In%C3%A9%20Kafe/Obreslen%C3%BD%20na%20chodn%C3%ADk.pdf" rel="noopener noreferrer">Iné Kafé - Obreslený na chodník</a> <a href="songs/In%C3%A9%20Kafe/Obreslen%C3%BD%20na%20chodn%C3%ADk.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="J"><a href="songs/Janais/Naveky.pdf" rel="noopener noreferrer">Janais - Naveky</a> <a href="songs/Janais/Naveky.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kab%C3%A1t/Pohoda.pdf" rel="noopener noreferrer">Kabát - Pohoda</a> <a href="songs/Kab%C3%A1t/Pohoda.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Koledy/Koledy%20-%20A%20v%C4%8Dera%20z%20ve%C4%8Dera.pdf" rel="noopener noreferrer">Koledy - A včera z večera</a> <a href="songs/Koledy/Koledy%20-%20A%20v%C4%8Dera%20z%20ve%C4%8Dera.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Koledy/Koledy%20-%20Ak%C3%BD%20je%20to%20svit.pdf" rel="noopener noreferrer">Koledy - Aký je to svit</a> <a href="songs/Koledy/Koledy%20-%20Ak%C3%BD%20je%20to%20svit.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Koledy/Koledy%20-%20Do%20hory%2C%20do%20lesa%2C%20valasi.pdf" rel="noopener noreferrer">Koledy - Do hory, do lesa, valasi</a> <a href="songs/Koledy/Koledy%20-%20Do%20hory%2C%20do%20lesa%2C%20valasi.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Koledy/Koledy%20-%20Dobr%C3%A1%20novina.pdf" rel="noopener noreferrer">Koledy - Dobrá novina</a> <a href="songs/Koledy/Koledy%20-%20Dobr%C3%A1%20novina.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Koll%C3%A1rovci/Mari%C5%A1a.pdf" rel="noopener noreferrer">Kollárovci - Mariša</a> <a href="songs/Koll%C3%A1rovci/Mari%C5%A1a.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Aleluja.pdf" rel="noopener noreferrer">Kresťanské - Aleluja</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Aleluja.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Bar%C3%A1nok%20Bo%C5%BE%C3%AD.pdf" rel="noopener noreferrer">Kresťanské - Baránok Boží</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Bar%C3%A1nok%20Bo%C5%BE%C3%AD.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/D%C3%A1vam%20v%C5%A1etko.pdf" rel="noopener noreferrer">Kresťanské - Dávam všetko</a> <a href="songs/Kres%C5%A5ansk%C3%A9/D%C3%A1vam%20v%C5%A1etko.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Gl%C3%B3ria.pdf" rel="noopener noreferrer">Kresťanské - Glória</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Gl%C3%B3ria.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Hymna%20p%C3%BAte%20za%C4%BE%C3%BAben%C3%BDch.pdf" rel="noopener noreferrer">Kresťanské - Hymna púte zaľúbených (Ty dávaš lásku nám)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Hymna%20p%C3%BAte%20za%C4%BE%C3%BAben%C3%BDch.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Nos%C3%AD%C5%A1%20ma%20nos%C3%AD%C5%A1.pdf" rel="noopener noreferrer">Kresťanské - Nosíš ma nosíš</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Nos%C3%AD%C5%A1%20ma%20nos%C3%AD%C5%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Ot%C4%8De%20n%C3%A1%C5%A1.pdf" rel="noopener noreferrer">Kresťanské - Otče náš</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Ot%C4%8De%20n%C3%A1%C5%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Pane%2C%20zmiluj%20sa.pdf" rel="noopener noreferrer">Kresťanské - Pane, zmiluj sa</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Pane%2C%20zmiluj%20sa.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Svadobn%C3%A1.pdf" rel="noopener noreferrer">Kresťanské - Svadobná (Dievča v bielom závoji)</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Svadobn%C3%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Sv%C3%A4t%C3%BD.pdf" rel="noopener noreferrer">Kresťanské - Svätý</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Sv%C3%A4t%C3%BD.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/S%C4%BEub.pdf" rel="noopener noreferrer">Kresťanské - Sľub</a> <a href="songs/Kres%C5%A5ansk%C3%A9/S%C4%BEub.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="K"><a href="songs/Kres%C5%A5ansk%C3%A9/Vody%20nezahasia.pdf" rel="noopener noreferrer">Kresťanské - Vody nezahasia</a> <a href="songs/Kres%C5%A5ansk%C3%A9/Vody%20nezahasia.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="M"><a href="songs/Mandrage/Hled%C3%A1%20se%20%C5%BEena.pdf" rel="noopener noreferrer">Mandrage - Hledá se žena</a> <a href="songs/Mandrage/Hled%C3%A1%20se%20%C5%BEena.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="M"><a href="songs/Mandrage/U%C5%BE%20m%C4%9B%20v%C3%ADc%20kr%C3%A1t%20neuvid%C3%AD%C5%A1.pdf" rel="noopener noreferrer">Mandrage - Už mě víc krát neuvidíš</a> <a href="songs/Mandrage/U%C5%BE%20m%C4%9B%20v%C3%ADc%20kr%C3%A1t%20neuvid%C3%AD%C5%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="M"><a href="songs/Monika%20Li%C5%BEbetin/Prisah%C3%A1m.pdf" rel="noopener noreferrer">Monika Ližbetin - Prisahám</a> <a href="songs/Monika%20Li%C5%BEbetin/Prisah%C3%A1m.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="M"><a href="songs/Monika%20Li%C5%BEbetin/S%20tebou%20kr%C3%A1%C4%8Da%C5%A5.pdf" rel="noopener noreferrer">Monika Ližbetin - S tebou kráčať</a> <a href="songs/Monika%20Li%C5%BEbetin/S%20tebou%20kr%C3%A1%C4%8Da%C5%A5.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="N"><a href="songs/No%20Name/Ty%20a%20tvoja%20sestra.pdf" rel="noopener noreferrer">No Name - Ty a tvoja sestra</a> <a href="songs/No%20Name/Ty%20a%20tvoja%20sestra.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="N"><a href="songs/No%20Name/%C5%BDily.pdf" rel="noopener noreferrer">No Name - Žily</a> <a href="songs/No%20Name/%C5%BDily.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="O"><a href="songs/Oasis/Wonderwall.pdf" rel="noopener noreferrer">Oasis - Wonderwall</a> <a href="songs/Oasis/Wonderwall.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="R"><a href="songs/Richard%20M%C3%BCller/Nebude%20to%20tak%C3%A9%20%C4%BEahk%C3%A9.pdf" rel="noopener noreferrer">Richard Müller - Nebude to take ľahké</a> <a href="songs/Richard%20M%C3%BCller/Nebude%20to%20tak%C3%A9%20%C4%BEahk%C3%A9.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="R"><a href="songs/Rossa/O%C4%8De%C5%88ka.pdf" rel="noopener noreferrer">Rossa - Očeňka</a> <a href="songs/Rossa/O%C4%8De%C5%88ka.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="R"><a href="songs/Rybi%C4%8Dky%2048/L%C3%A9to.pdf" rel="noopener noreferrer">Rybičky 48 - Léto</a> <a href="songs/Rybi%C4%8Dky%2048/L%C3%A9to.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="R"><a href="songs/Rybi%C4%8Dky%2048/Slibuju%2C%20%C5%BEe%20nebudu%20p%C3%ADt.pdf" rel="noopener noreferrer">Rybičky 48 - Slibuju, že nebudu pít</a> <a href="songs/Rybi%C4%8Dky%2048/Slibuju%2C%20%C5%BEe%20nebudu%20p%C3%ADt.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="S"><a href="songs/Sima%20Magu%C5%A1inov%C3%A1/Sima%20Magu%C5%A1inov%C3%A1%20-%20Len%20ma%20%C4%BE%C3%BAb.pdf" rel="noopener noreferrer">Sima Magušinová - Len ma ľúb</a> <a href="songs/Sima%20Magu%C5%A1inov%C3%A1/Sima%20Magu%C5%A1inov%C3%A1%20-%20Len%20ma%20%C4%BE%C3%BAb.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="S"><a href="songs/Smola%20a%20Hru%C5%A1ky/Tang%C3%A1.pdf" rel="noopener noreferrer">Smola a Hrušky - Tanga</a> <a href="songs/Smola%20a%20Hru%C5%A1ky/Tang%C3%A1.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="S"><a href="songs/Smola%20a%20Hru%C5%A1ky/Tang%C3%A1%20%5Btab%5D.pdf" rel="noopener noreferrer">Smola a Hrušky - Tanga [tab]</a> <a href="songs/Smola%20a%20Hru%C5%A1ky/Tang%C3%A1%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="T"><a href="songs/TEAM/Dr%C5%BE%C3%ADm%20ti%20miesto.pdf" rel="noopener noreferrer">TEAM - Držim ti miesto</a> <a href="songs/TEAM/Dr%C5%BE%C3%ADm%20ti%20miesto.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="T"><a href="songs/TEAM/Dr%C5%BE%C3%ADm%20ti%20miesto%20%5Btab%5D.pdf" rel="noopener noreferrer">TEAM - Držim ti miesto [tab]</a> <a href="songs/TEAM/Dr%C5%BE%C3%ADm%20ti%20miesto%20%5Btab%5D.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="T"><a href="songs/TEAM/Reklama%20na%20ticho.pdf" rel="noopener noreferrer">TEAM - Reklama na ticho</a> <a href="songs/TEAM/Reklama%20na%20ticho.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+          <li data-letter="T"><a href="songs/Turbo/Cht%C4%9Bl%20jsem%20m%C3%ADt.pdf" rel="noopener noreferrer">Turbo - Chtěl jsem mít</a> <a href="songs/Turbo/Cht%C4%9Bl%20jsem%20m%C3%ADt.cho" target="_blank" rel="noopener noreferrer">cho</a></li>
+        </ul>
+        <p class="no-results" id="noResults">No songs match your search.</p>
+      </section>
+    </main>
+    <footer>
+      <small>
+        Hosted on
+        <a
+          href="https://github.com/matejkubinec/my-songbook"
+          target="_blank"
+          rel="noopener noreferrer"
+          >github</a
+        >
+        by
+        <a
+          href="https://github.com/matejkubinec"
+          target="_blank"
+          rel="noopener noreferrer"
+          >matejkubinec</a
+        >
+      </small>
+    </footer>
+    <script>
+      (function () {
+        const root = document.documentElement;
+        const toggle = document.getElementById("themeToggle");
+        const stored = localStorage.getItem("theme");
+        if (stored) root.setAttribute("data-theme", stored);
+
+        toggle.addEventListener("click", function () {
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          const current =
+            root.getAttribute("data-theme") || (prefersDark ? "dark" : "light");
+          const next = current === "dark" ? "light" : "dark";
+          root.setAttribute("data-theme", next);
+          localStorage.setItem("theme", next);
+        });
+      })();
+
+      (function () {
+        const search = document.getElementById("search");
+        const songsList = document.getElementById("songs");
+        const countEl = document.getElementById("count");
+        const noResults = document.getElementById("noResults");
+        const jumpNav = document.getElementById("jumpNav");
+
+        function normalize(str) {
+          return str
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+        }
+
+        // Insert a divider before the first <li> of each letter group.
+        const originalItems = Array.from(songsList.querySelectorAll("li"));
+        let lastLetter = null;
+        const dividers = {};
+        originalItems.forEach(function (li) {
+          const letter = li.getAttribute("data-letter");
+          if (letter && letter !== lastLetter) {
+            const divider = document.createElement("li");
+            divider.className = "letter-divider";
+            divider.id = "letter-" + letter;
+            divider.textContent = letter;
+            songsList.insertBefore(divider, li);
+            dividers[letter] = divider;
+            lastLetter = letter;
+          }
+        });
+
+        // Build the A–Z jump nav; letters with no songs are disabled.
+        const availableLetters = Object.keys(dividers);
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(function (letter) {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = letter;
+          if (dividers[letter]) {
+            btn.addEventListener("click", function () {
+              dividers[letter].scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            });
+          } else {
+            btn.disabled = true;
+          }
+          jumpNav.appendChild(btn);
+        });
+
+        const items = originalItems;
+        const total = items.length;
+
+        const titles = items.map(function (li) {
+          const titleLink = li.querySelector("a");
+          const text = titleLink ? titleLink.textContent : li.textContent;
+          return normalize(text);
+        });
+
+        function updateCount(visible) {
+          countEl.textContent =
+            visible === total
+              ? total + " songs"
+              : visible + " of " + total + " songs";
+        }
+
+        function filter() {
+          const query = normalize(search.value);
+          let visible = 0;
+          const visibleLetters = new Set();
+          items.forEach(function (li, i) {
+            const match = titles[i].includes(query);
+            li.classList.toggle("hidden", !match);
+            if (match) {
+              visible++;
+              visibleLetters.add(li.getAttribute("data-letter"));
+            }
+          });
+          Object.keys(dividers).forEach(function (letter) {
+            dividers[letter].classList.toggle(
+              "hidden",
+              !visibleLetters.has(letter),
+            );
+          });
+          noResults.classList.toggle("visible", visible === 0);
+          updateCount(visible);
+        }
+
+        search.addEventListener("input", filter);
+        updateCount(total);
+      })();
+    </script>
+  </body>
+</html>

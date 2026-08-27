@@ -1,0 +1,63 @@
+{title: Slibuju, že nebudu pít}
+{artist: Rybičky 48}
+
+{start_of_verse: V1:}
+Je deset hodin r[A]áno, zalepený voči, n[C#m]emůžu vstát.
+Kafe a cigáro si[D] dám, včera jsem pil [Dm]zas jako Dán.
+A ty se díváš, ty se na mě díváš pohledem,
+kterej každej mužskej zná, a jen žena ho dovede.
+{end_of_verse}
+{start_of_verse: V1b:}
+Chceš ode mě sly[A]šet tu větu vět, kter[C#m]ou i Shakespeare znal nazpaměť.
+Kterou i Adam ří[D]kal Evě, když večer p[F]ředtím zašel na dvě.
+Chceš ode mě slyšet tu větu vět, já nechci kázání, ani jít na zpověď.
+Uchýlim se k malé lži, snad karma promine, vždyť jsme jen muži.
+{end_of_verse}
+ 
+{start_of_chorus: R1:}
+[A]Slibuju, že nebudu p[E]ít, v[F#m]čera to bylo n[D]aposled.
+[A]Slibuju, že nebudu p[E]ít, t[D]o přísahám.
+Slibuju, že nebudu pít, včera to bylo naposled.
+Slibuju, že nebudu pít, to přísahám.
+{end_of_chorus}
+ 
+{start_of_verse: V2:}
+Kde jsem včera byl, jak jsem se asi měl.
+Snad kamarádi ví, když já si nevzpomněl.
+V krku mě bolí, takže se asi zpívalo.
+A když dneska smutno je, tak včera asi bylo veselo.
+{end_of_verse}
+{start_of_verse: V2b:}
+Chceš ode mě slyšet tu větu vět, kterou i Shakespeare znal nazpaměť.
+Kterou i Adam říkal Evě, když večer předtím zašel na dvě.
+Chceš ode mě slyšet tu větu vět, já nechci kázání, ani jít na zpověď.
+Uchýlim se k malé lži, snad karma promine, vždyť jsme jen muži.
+{end_of_verse}
+
+{comment: Refrén 2x}
+# {start_of_chorus: R2:}
+# /: Slibuju, že nebudu pít, včera to bylo naposled.
+# Slibuju, že nebudu pít, to přísahám.
+# Slibuju, že nebudu pít, včera to bylo naposled.
+# Slibuju, že nebudu pít, to přísahám. :/
+# {end_of_chorus}
+
+{start_of_grid shape="3x4+1" label="S:"}
+| A | C#mi | D | Dmi | 2x
+{end_of_grid}
+
+# https://www.songsterr.com/a/wsa/rybicky48-slibuju-ze-nebudu-pit-tab-s4109077
+
+{start_of_chorus: R2:}
+Slibuju, že nebudu pít, včera to bylo naposled.
+Slibuju, že nebudu pít, to přísahám.
+{end_of_chorus}
+
+{start_of_outro: O:}
+[A]Už jenom na svatbách, a[E] nebo promocích.
+[F#m]Přes den ne, jenom po n[D]ocích.
+Na oslavách, nebo večírcích.
+Přes den ne, jenom po nocích.
+[A]Slíbuju, že nebudu p[E]ít, t[D]o přísáhám.
+Slíbuju, že nebudu pít, to přísáhám.
+{end_of_outro}

@@ -1,0 +1,46 @@
+{title: Očeňka}
+{artist: Rossa}
+{x_list: wedding}
+
+{start_of_grid 4x4: I:}
+| F | C | Dm | B |
+| F | C | Dm | B |
+| F | C | Dm | B |
+{end_of_grid}
+
+{start_of_verse: S1:}
+[F]Tvoyi ochen'ka hnedy, tvoy i [C]usta solodky, ty miy anhel [Dm]kotryy khoronyt' mi sny. 
+[F]Moye serdtse dam tobi, do svita[C] to rozpovim, zhe ty moya rybko[Dm] a ya iba tviy. 
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! 
+[F]I ya dykham pre tebe, uzh to [C]inche nebude, moye serdtse mi bye[Dm] iba pre tebe! 
+{end_of_chorus}
+
+{start_of_grid: M1:}
+| F | C | Dm | B |
+| F | C | Dm | B |
+{end_of_grid}
+
+{start_of_verse: S2:}
+[D]Krasny khvil'i za nami, koly [A]hvizdy padali, v tod'ik zme sya [Bm]lyubov moya spoznali . 
+[D]Pershy bochky na lavtsi, pershy [A]bochky dalas' mi, a ya znav zhe uzh [Bm]yes' moya a ya tviy.
+{end_of_verse}
+
+{start_of_chorus: R2:}
+[D]Zvyzdy svytyat' pre tebe, misyats'[A] svytyt' pre tebe, ta i sontse svytyt'[Bm] iba pre tebe! 
+[D]I ya dykham pre tebe, uzh to[A] inche nebude, moye serdtse mi[Bm] bye iba pre tebe! 
+{end_of_chorus}
+
+{start_of_grid: M2:}
+| D | A | Bm | G |
+| D | A | Bm | G |
+{end_of_grid}
+
+{start_of_chorus: R3:}
+[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! 
+[F]I ya dykham pre tebe, uzh[C] to inche nebude, moye serdtse mi [Dm]bye iba pre tebe!
+[F]Zvyzdy svytyat' pre tebe, misyats'[C] svytyt' pre tebe, ta i sontse svytyt'[Dm] iba pre tebe! 
+[F]I ya dykham pre tebe, uzh[C] to inche nebude, moye serdtse mi [Dm]bye iba pre tebe!
+{end_of_chorus}
