@@ -1,0 +1,22 @@
+{title: Svätý}
+{artist: Kresťanské}
+{x_list: wedding}
+
+{define: D/E base-fret 1 frets 0 0 0 2 3 2}
+{define: C/E base-fret 1 frets 0 3 2 0 1 0}
+
+{start_of_verse}
+[E]                    [D/E]      [C/E]     [E]
+Svätý, svätý, svätý je Pán, Boh všetkých svetov.
+                  [D/E]   [C/E]   [E]
+Plné sú nebesia i zem tvojej slávy.
+
+[F#m] [A]      [E]
+Hosana na výsostiach!
+
+[E]                               [D/E] [C/E] [E]
+Požehnaný, ktorý prichádza v mene Pánovom.
+
+[F#m] [A]      [E]
+Hosana na výsostiach!
+{end_of_verse}

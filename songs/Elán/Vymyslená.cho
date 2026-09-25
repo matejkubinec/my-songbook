@@ -1,0 +1,49 @@
+{title: Vymyslená}
+{artist: Elán}
+
+{start_of_grid shape="4x4+1" label="I:"}
+| D | A | 4x
+{end_of_grid}
+
+{start_of_verse: V1:}
+[D]Čakám ju pred [A]domom [G]prší mi za go[D]lier
+Odkiaľ sa poznáme nikomu nepoviem
+Klasicky hanblivá, smeje sa očami
+má sinku na lakti a tašku od mamy.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+Chcem s [Bm]ňou ísť, vláči[G]kom na vý[A]let do Mod[D]ry
+Najprv sa poškriepiť, potom sa udobriť
+Mať svoje tajomstvá zamknúť ich na kľúčik
+držať sa za ruky, nechcieť sa rozlúčiť
+{end_of_chorus}
+
+{start_of_chorus}
+[G]Vymýšľať [A]priate[D]ľom [G]bláznivé[A], [D]mená
+Škoda, [Bm]že je, škoda [G]že je iba [A]vymysle[D]ná.
+Škoda, [Bm]že je, škoda [G]že je iba [A]vymysle[D]ná.
+{end_of_chorus}
+
+{start_of_grid}
+| D | A | 4x
+{end_of_grid}
+
+{start_of_verse: V2:}
+Čakám ju pred domom, prší mi za golier
+odkiaľ sa poznáme, nikomu nepoviem
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Chcem s [Bm]ňou ísť, vláči[G]kom na vý[A]let do Mod[D]ry
+Najprv sa poškriepiť, potom sa udobriť
+Mať svoje tajomstvá zamknúť ich na kľúčik
+držať sa za ruky, nechcieť sa rozlúčiť
+{end_of_chorus}
+
+{start_of_chorus}
+[G]Vymýšľať [A]priate[D]ľom [G]bláznivé[A], [D]mená
+Škoda, [Bm]že je, škoda [G]že je iba [A]vymysle[D]ná.
+Škoda, [Bm]že je, škoda [G]že je iba [A]vymysle[D]ná.
+Škoda, [Bm]že je, škoda [G]že je iba [A]vymysle[D]ná.
+{end_of_chorus}

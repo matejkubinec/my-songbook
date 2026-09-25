@@ -1,0 +1,49 @@
+{artist: IMT SMILE}
+{title: Nepoznám}
+
+{start_of_grid shape="3x4+1" label="I:"}
+| Ami | C | G | E | 2x
+{end_of_grid}
+
+{start_of_verse: V1:}
+[Am]Nepoznám [C]krajšie [G]hviezdy ako [E]tie,
+ktoré sú v tvojich očiach ukryté.
+Pri svetle ktorých noc je ako deň,
+a len spánok ľahučký vie im ponúknuť tieň.
+{end_of_verse}
+
+{start_of_verse}
+Nepoznám sladšie slová ako tie,
+ktorými vždy moju hlavu popletieš.
+Vychádzajú z dvier tvojich pier,
+bozk je kľúčom jediným, ktorým ich zamknúť viem.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[Am]Ja nepoznám ui[Dm] pa pa ra [E]poura,
+ja nepoznám šivi ra para poura,
+ja nepoznám óua para poura,
+ja nepoznám.
+{end_of_chorus}
+
+{start_of_grid}
+| Ami | C | G | E | 2x
+{end_of_grid}
+
+{start_of_verse}
+Nepoznám krajšie prsia ako tie,
+ktorými máš svoje telo ozdobené.
+Pri výstupe na ne ustanem.
+Budem sa po nich túlať, kým nebudú zmapované.
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Ja nepoznám ui pa pa ra poura,
+ja nepoznám šivi ra para poura,
+ja nepoznám óua para poura,
+ja nepoznám.
+{end_of_chorus}
+
+{start_of_grid}
+| Ami | C | G | E | 2x
+{end_of_grid}

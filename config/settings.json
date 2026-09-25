@@ -1,0 +1,146 @@
+{
+    "include": [
+        "notes/swedish.json"
+    ],
+    "settings": {
+        "transcode": "swedish",
+        "columns": 1
+    },
+    "user": {
+        "name": "Matej",
+        "fullname": "Matej Kubinec"
+    },
+    "contents": [
+        {
+            "fields": [
+                "artist",
+                "sorttitle"
+            ],
+            "label": "Piesne",
+            "line": "%{artist|%{} - }%{title}",
+            "pageno": "%{page}",
+            "fold": false,
+            "omit": false
+        }
+    ],
+    "pdf": {
+        "info": {
+            "author": "Matej Kubinec"
+        },
+        "diagrams": {
+            "show": "none"
+        },
+        "even-odd-pages": 0,
+        "pagealign-songs": 0,
+        "spacing": {},
+        "margintop": 60,
+        "headspace": 40,
+        "chorus": {
+            "indent": 0,
+            "bar": {
+                "offset": 4,
+                "width": 1,
+                "color": "foreground-medium"
+            },
+            "recall": {
+                "choruslike": false,
+                "tag": "Refrén",
+                "quote": false
+            }
+        },
+        "labels": {
+            "align": "right",
+            "width": 1
+        },
+        "papersize": "a4",
+        "formats": {
+            "title": {
+                "title": [
+                    "",
+                    "%{artist|%{} - }%{title}",
+                    ""
+                ],
+                "subtitle": [
+                    "",
+                    "%{capo|Capo %{}}",
+                    ""
+                ]
+            }
+        },
+        "grids": {
+            "symbols": {
+                "color": "foreground-medium"
+            },
+            "stretch": 0
+        },
+        "fontdir": [
+            "./config/fonts"
+        ],
+        "fontconfig": {
+            "plex": {
+                "": "IBMPlexSans-Regular.ttf",
+                "medium": "IBMPlexSans-Medium.ttf",
+                "bold": "IBMPlexSans-Bold.ttf",
+                "semibold": "IBMPlexSans-SemiBold.ttf"
+            },
+            "plex-serif": {
+                "": "IBMPlexSerif-Regular.ttf",
+                "medium": "IBMPlexSerif-Medium.ttf",
+                "bold": "IBMPlexSerif-Bold.ttf",
+                "semibold": "IBMPlexSerif-SemiBold.ttf"
+            },
+            "plex-mono": {
+                "": "IBMPlexMono-Regular.ttf",
+                "medium": "IBMPlexMono-Medium.ttf",
+                "bold": "IBMPlexMono-Bold.ttf",
+                "semibold": "IBMPlexMono-SemiBold.ttf"
+            }
+        },
+        "fonts": {
+            "title": {
+                "description": "plex bold 13"
+            },
+            "text": {
+                "description": "plex 13"
+            },
+            "label": {
+                "description": "plex-mono",
+                "size": 10
+            },
+            "chord": {
+                "description": "plex bold 13",
+                "color": "#0000FF"
+            },
+            "chordfingers": {
+                "file": "ChordProSymbols.ttf",
+                "numbercolor": "background"
+            },
+            "comment": {
+                "description": "plex-mono",
+                "size": 13,
+                "background": "foreground-light"
+            },
+            "comment_italic": {
+                "description": "plex",
+                "size": 13
+            },
+            "comment_box": {
+                "description": "plex",
+                "size": 13,
+                "frame": 1
+            },
+            "tab": {
+                "description": "plex-mono",
+                "size": 10
+            },
+            "toc": {
+                "description": "plex",
+                "size": 14
+            },
+            "grid": {
+                "description": "plex bold 13",
+                "color": "#0000FF"
+            }
+        }
+    }
+}

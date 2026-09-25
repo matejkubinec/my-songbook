@@ -1,0 +1,60 @@
+{title: Čumil}
+{artist: Iné Kafe}
+
+{start_of_grid shape="3x4+1" label="I:"}
+| Am | F | C | G | 4x
+{end_of_grid}
+
+{start_of_verse: V1:}
+zapnem [Am]bednu a idu s[F]pravy na dvoj[G]ke sport ma n[C]ebavi
+trojka zase dava serial asi patstosiedmu cast
+stvorkou bezi priamy prenos na patke nic dobre na noc
+iba nejaky krvak po ktorom sa bud[G]em bat              [C]
+{end_of_verse}
+
+{start_of_grid shape="3x4+1"}
+| Am | F | C | G | 4x
+{end_of_grid}
+
+{start_of_verse: V2:}
+siesty kanal nefunguje a ked hej tak len slubuje
+ze tu konecne raz bude dobre tak ako nikdy predtym
+na sedmicke mam rozpravky Tom a Jerry kradnu parky
+robia s nimi zle a nakoniec ich aj tak zozeru
+{end_of_verse}
+
+{start_of_chorus: R1:}
+a tak[Am] len pozera[F]m vecer k[C]ed som s[G]am
+gumene gombiky dokola prepinam
+uz viem aj pocitat od jednej do desat
+tolko mam programov predtym nez idem spat
+{end_of_chorus}
+
+{start_of_verse: V3:}
+osem policajne spravy tak to sa mi moc nenravi
+ten typek ktoreho vidim sa na Kecku nejak podoba
+devina je uz vojna mravcov drzim ciernym vytrvalcom
+desinu si v noci necham uz pravidelne na koniec
+{end_of_verse}
+
+{start_of_chorus: R2:}
+a tak len pozeram vecer ked som sam
+gumene gombiky dokola prepinam
+uz viem aj pocitat od jednej do desat
+tolko mam programov predtym nez idem spat
+{end_of_chorus}
+
+{start_of_grid shape="3x4+1" label="B:"}
+| Am | F | C | G | 4x
+{end_of_grid}
+
+{start_of_chorus: R3:}
+a tak len pozeram vecer ked som sam
+gumene gombiky dokola prepinam
+uz viem aj pocitat od jednej do desat
+tolko mam programov predtym nez idem spat
+{end_of_chorus}
+
+{start_of_grid shape="3x4+1" label="O:"}
+| Am | F | C | G | 4x
+{end_of_grid}

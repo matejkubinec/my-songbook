@@ -1,0 +1,74 @@
+{title: Obreslený na chodník}
+{artist: Iné Kafé}
+{columns: 2}
+
+{start_of_grid shape="2x3+1" label="I:"}
+| A | E | F#m | E | 3x
+| D . . . |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[A]Na ceste odbachol ma
+[F#m]zločinec náhodný
+[A]Niekto ma potom musel
+[D]obkresliť na chodník
+S vašimi poznámkami
+viete čo môžte mi
+Ak si ma obzerate
+Tak potlesk vážený
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[A]Niesom vážny,[E]svet je krásny
+[D]diera v hlave [E]nevadí
+[A]Starý známy v[E] našej spálni
+[D]Moje miesto nahradí
+{end_of_chorus}
+
+{start_of_verse}
+Kto ma obtiahol kriedou
+nechcel byť Picaso
+Kto skúšal prvú pomoc
+S nádejou vyhasol
+Niekto pôjde na Fidgi
+za moje úspori
+Fotograf má ma v pi..
+čo na tom nehorí
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Niesom vážny,svet je krásny
+diera v hlave nevadí
+Starý známy v našej spálni
+Moje miesto nahradí
+ 
+Niesom krásny,svet je vážny
+čo napíšu na pomník
+Ja si ležím,mám na háku
+obkreslený na chodník
+{end_of_chorus}
+
+{start_of_grid shape="2x3+1" label="S:"}
+| A . . . |
+| A | E | F#m | E | 3x
+| D . . . |
+{end_of_grid}
+
+{column_break}
+{start_of_chorus: R3:}
+Niesom vážny,svet je krásny
+diera v hlave nevadí
+Starý známy v našej spálni
+Moje miesto nahradí
+ 
+Niesom krásny,svet je vážny
+čo napíšu na pomník
+Ja si ležím,mám na háku
+obkreslený na chodník
+{end_of_chorus}
+
+{start_of_grid shape="2x3+1" label="O:"}
+| A | E | F#m | E | 4x
+| E . . . |
+| A | E | F#m | E | 4x (do stratena)
+{end_of_grid}

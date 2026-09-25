@@ -1,0 +1,40 @@
+{title: On my head}
+{artist: Dan Bárta}
+
+{start_of_grid shape="3x4" label="I:"}
+| D  | F#m | G | % |
+| D  | F#m | G | A |
+| Bm | %   | % | % |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[D]Lead my heart in [F#m]my own place
+[G]Ride up to the stars across the heaven
+[D]Hello, you [F#m]say, you [G]will drive [A]me lazy
+Meeting my heart, leaving the yard
+Waiting for the night's burst never say never
+We freak, we burts, pasting from our angles
+{end_of_verse}
+
+{start_of_chorus: R1:}
+/: [D]When I am standing [F#m]on my head
+[G]you are crazy smiling
+[D]Now we don’t have it, [F#m]we are mad
+[G]go round this speedy [A]romancing :/
+{end_of_chorus}
+
+{start_of_verse: V1:}
+You have the time to take a break
+Get up to find your lost control
+Someone loves you trust, your soul
+Looking for the right size and a good measure
+I am a tough guy from the sky
+My good will drives me crazy
+{end_of_verse}
+
+{start_of_chorus: R2:}
+/: When I am standing on my head
+you are crazy smiling
+Now we don’t have it, we are mad
+go round this speedy romancing :/ :/
+{end_of_chorus}

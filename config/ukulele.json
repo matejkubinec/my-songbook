@@ -1,0 +1,27 @@
+{
+  "include": [
+    "ukulele",
+    "settings.json"
+  ],
+  "instrument": {
+    "type": "Ukulele",
+    "description": "Standard Tuning"
+  },
+  "pdf": {
+    "diagrams": {
+      "show": "right"
+    }
+  },
+  "chords": [
+    {
+      "name": "F#m",
+      "base": 0,
+      "frets": [
+        2,
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

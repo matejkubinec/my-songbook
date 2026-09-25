@@ -1,0 +1,18 @@
+{
+  "include": [
+    "settings.json"
+  ],
+  "instrument": {
+    "type": "Bass",
+    "description": "Standard Tuning"
+  },
+  "diagrams": {
+    "show": "true"
+  },
+ "delegates": [
+    {
+      "name": "tab",
+      "type": "omit"
+    }
+  ]
+}

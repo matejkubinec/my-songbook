@@ -1,0 +1,90 @@
+{title: Wonderwall}
+{artist: Oasis}
+{columns: 2}
+{capo: 2}
+
+{start_of_grid shape="1x4+1" label="I:"}
+| Em | G | D | A7sus4 | 4x
+{end_of_grid}
+
+{start_of_verse label="V1:"}
+[Em]Today is [G]gonna be the day
+That they're g[D]onna throw it back [A7sus4]to you
+By now you should've somehow
+Realised what you gotta do
+I don't believe that anybody
+Feels the way I do about you now
+{end_of_verse}
+
+{start_of_grid shape="1x4+1"}
+| C | D | A7sus4 | A7sus4 |
+{end_of_grid}
+
+{start_of_verse: V2:}
+Backbeat, the word is on the street
+That the fire in your heart is out
+I'm sure you've heard it all before
+But you never really had a doubt
+I don't believe that anybody feels
+The way I do about you now
+{end_of_verse}
+
+{start_of_pre_chorus: PR:}
+And a[C]ll the roads we h[D]ave to walk a[Em]re winding
+And a[C]ll the lights tha[D]t lead us there a[Em]re blinding
+T[C]here are many t[D]hings that I would
+[G]Like to [D]say to [Em]you
+But I d[D]on't kn[A7sus4]ow how
+{end_of_pre_chorus}
+
+{start_of_chorus label="R1:"}
+Because m[C]aybe [Em]    [G]
+You're g[Em]onna be the one that [C]saves me [Em]    [G]
+And a[Em]fter [C]all[Em]    [G]
+You're my w[Em]onder[C]wall[Em]    [G]   [Em]
+{end_of_chorus}
+
+{start_of_verse: V3:}
+Today was gonna be the day
+But they'll never throw it back to you
+By now you should've somehow
+Realised what you're not to do
+I don't believe that anybody
+Feels the way I do
+About you now
+{end_of_verse}
+
+{start_of_pre_chorus}
+And all the roads that lead you there were winding
+And all the lights that light the way are blinding
+There are many things that I would like to say to you
+But I don't know how
+{end_of_pre_chorus}
+
+{start_of_chorus: R2:}
+I said maybe
+You're gonna be the one that saves me
+And after all
+You're my wonderwall
+I said maybe (I said maybe)
+You're gonna be the one that saves me
+And after all
+You're my wonderwall
+I said maybe (I said maybe)
+You're gonna be the one that saves me (that saves me)
+You're gonna be the one that saves me (that saves me)
+You're gonna be the one that saves me (that saves me)
+{end_of_chorus}
+
+{start_of_grid shape="1x4+1" label="O:"}
+| C | Em | G | Em | 4x
+{end_of_grid}
+
+{start_of_tab: S:}
+e|--------3-0----|
+B|-1-0-1---------|
+G|---------------|
+D|---------------|  x8
+A|---------------|
+E|---------------|
+{end_of_tab}

@@ -1,0 +1,7 @@
+{
+  "notes": {
+    "system": "custom",
+    "sharp": ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "H"],
+    "flat": ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "B", "H"]
+  }
+}

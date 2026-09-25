@@ -1,0 +1,67 @@
+{title: Ružová záhrada}
+{artist: Iné Kafe}
+
+{start_of_grid shape="4x4+1" label="I:"}
+| E . |
+| E . | B . | F#m . | A . | 2x
+{end_of_grid}
+
+{start_of_verse: V1:}
+[E]Chcela by si vedie[C#m]ť prečo ten[B] ktorý ťa trápi [A]nevolá
+a ten čo ho máš na háku ťa otravuje dokola
+keď si si istá že už konečne máš toho pravého
+zrazu všetko padá...[A] [B]
+{end_of_verse}
+
+{start_of_grid shape="4x4+1"}
+| E . | B . | F#m . | A . | 2x
+{end_of_grid}
+
+{start_of_verse: V2:}
+Chcela by si vedieť prečo keď sa večer dívaš na správy
+ťa každá bez vínimky pravidelne každá otrávi
+a prečo človek ktorý ťa mal tak rád
+zrazu odišiel odišiel tak sám...
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[E]Možno že to hneď [B]nepochopíš [F#m]snívať môžeš jedin[A]e keď spíš
+život nie je ružová záhrada Ježiško sa s nami pohádal
+na Vianoce s klamstvom na perách zakrývame len svoj vlastný strach
+prečo nás tu takto nechal stáť?
+{end_of_chorus}
+
+{start_of_grid shape="1x1+12"}
+| E |
+{end_of_grid}
+
+
+{start_of_verse: V3:}
+Chcela by si vediet prečo hlasy ktoré cítiš za sebou
+ťa pália viac než dotyk na perách s vlastnou cigaretou
+prečo sa všetci prestanú smiať vzdy až keď sa otočíš
+svet ide ďalej...
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Možno že to hneď nepochopíš snívať môžeš jedine keď spíš
+život nie je ružová záhrada Ježiško sa s nami pohádal
+na Vianoce s klamstvom na perách zakrývame len svoj vlastný strach
+prečo nás tu takto nechal stáť?
+{end_of_chorus}
+
+{start_of_grid shape="4x4+1" label="S:"}
+| E . | C#m . | B . | A . | 3x
+| E . | C#m . | A . | B . |
+{end_of_grid}
+
+{start_of_chorus: R3:}
+Možno že to hneď nepochopíš snívať môžeš jedine keď spíš
+život nie je ružová záhrada Ježiško sa s nami pohádal
+na Vianoce s klamstvom na perách zakrývame len svoj vlastný strach
+prečo nás tu takto nechal stáť?
+{end_of_chorus}
+
+{start_of_grid shape="4x4+1" label="O:"}
+| E . | C#m . | B . | A . | 4x
+{end_of_grid}

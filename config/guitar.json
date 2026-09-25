@@ -1,0 +1,14 @@
+{
+  "include": [
+    "settings.json"
+  ],
+  "instrument": {
+    "type": "Guitar",
+    "description": "Standard Tuning"
+  },
+  "pdf": {
+    "diagrams": {
+      "show": "true"
+    }
+  }
+}
