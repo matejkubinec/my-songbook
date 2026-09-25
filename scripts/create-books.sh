@@ -8,8 +8,8 @@ echo "30+30+01::completed"
 
 echo "wedding::started"
 mkdir -p books/wedding
-chordpro "--cover=songbooks/covers/wedding.pdf" "--filelist=songbooks/wedding.list" "--output=books/wedding/wedding.guitar.pdf" "--config=./config/settings.json"
-chordpro "--cover=songbooks/covers/wedding.pdf" "--filelist=songbooks/wedding.list" "--output=books/wedding/wedding.bass.pdf" "--decapo" "--config=./config/settings.json"
+chordpro "--cover=songbooks/covers/wedding.pdf" "--filelist=songbooks/wedding.list" "--output=books/wedding/wedding.guitar.pdf" "--config=./config/wedding.json"
+chordpro "--cover=songbooks/covers/wedding.pdf" "--filelist=songbooks/wedding.list" "--output=books/wedding/wedding.bass.pdf" "--decapo" "--config=./config/wedding.json"
 echo "wedding::completed"
 
 echo "masterbook:started"
