@@ -17,3 +17,9 @@ mkdir -p books/masterbook
 chordpro "--cover=songbooks/covers/masterbook.pdf" songs/**/*.cho "--output=books/masterbook/masterbook.guitar.pdf" "--config=./config/settings.json"
 chordpro "--cover=songbooks/covers/masterbook.bass.pdf" songs/**/*.cho "--output=books/masterbook/masterbook.bass.pdf" "--decapo" "--config=./config/settings.json"
 echo "masterbook:completed"
+
+echo "karol-oslava::started"
+mkdir -p books/karol-oslava
+chordpro "--filelist=songbooks/karol-oslava.list" "--output=books/karol-oslava/karol-oslava.guitar.pdf" "--config=./config/settings.json"
+chordpro "--filelist=songbooks/karol-oslava.list" "--output=books/karol-oslava/karol-oslava.bass.pdf" "--decapo" "--config=./config/settings.json"
+echo "karol-oslava::completed"

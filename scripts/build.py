@@ -70,6 +70,8 @@ def main() -> int:
 
     entries.sort(key=lambda item: (item[0].casefold(), item[1].casefold(), item[2]))
 
+    print(entries)
+
     list_lines = ["<ul id=\"songs\">"]
     for artist, title, cho_href, pdf_href in entries:
         display_label = f"{artist} - {title}" if artist else title
