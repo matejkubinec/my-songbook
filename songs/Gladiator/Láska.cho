@@ -1,0 +1,63 @@
+{title: Láska}
+{artist: Gladiator}
+
+{start_of_grid shape="2x4+1" label="I:"}
+| Asus2 | E | 2x
+{end_of_grid}
+
+{start_of_verse: V1:}
+[Asus2]Bol som o krok bližšie k láske
+[E]Dnes už o nej len píšem básne
+Hore v podkroví
+Tam kde holuby si ju vyznávajú
+Skúšal som ju všade vypátrať
+Či nemôžem ju vyhrať v kartách
+A či náhodou
+Nie je vo víne, tak ako pravda
+{end_of_verse}
+
+{start_of_chorus: R1:}
+Všetky svoje hriechy priznávam
+Zbitý a zranený zaspávam
+Celkom sám
+Vytrhnuté srdce ti na dlani ponúkam
+Viac už nemám
+No ty aj tak stále moje meno nepoznáš
+{end_of_chorus}
+
+{start_of_verse: V2:}
+V obchodoch sa nedá kúpiť
+V domoch lásky ponúknu ti iba falošnú
+Lásku na krátko
+Prachy za klamstvo
+Prečo láska nie je ako šťastie
+Že si už raz aj na mňa sadne
+Keď sa unaví
+A snáď mi uveríš
+Že potom ti ju celučičkú dám
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Všetky svoje hriechy priznávam
+Zbitý a zranený zaspávam
+Celkom sám
+Vytrhnuté srdce ti na dlani ponúkam
+Viac už nemám
+No ty aj tak stále moje meno nepoznáš
+{end_of_chorus}
+
+{start_of_bridge: B:}
+Bol som o krok bližšie k láske
+Dnes už o nej len píšem básne
+Hore v podkroví
+Tam kde holuby si ju vyznávajú
+{end_of_bridge}
+
+{start_of_chorus: R3:}
+/: Všetky svoje hriechy priznávam
+Zbitý a zranený zaspávam
+Celkom sám
+Vytrhnuté srdce ti na dlani ponúkam
+Viac už nemám
+No ty aj tak stále moje meno nepoznáš :/
+{end_of_chorus}

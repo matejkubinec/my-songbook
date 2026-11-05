@@ -1,0 +1,49 @@
+{title: Bonboniéra}
+{artist: Gladiator}
+
+{start_of_grid shape="4x4+1" label="I:"}
+| A . | E . | F#mi . | D . |
+{end_of_grid}
+
+{start_of_verse label="V1:"}
+Je ťažké [A] na vlastných nohách [E] stáť
+Aj [F#mi] slamky sa chytám keď [D] život ma láme
+Mám odreté kolená
+keď snažím sa nájsť svoj osobný raj
+{end_of_verse}
+
+{start_of_chorus label="R1:"}
+Snažím sa [A] aby môj svet [E] za niečo stál
+aj keď [F#mi] nie vždy sa mi to [D] darí
+Snažím sa žiť naplno ako sa dá
+po kúskoch vyberám svoj svet z bonboniéry
+{end_of_chorus}
+
+{start_of_verse label="V2:"}
+Je ťažké na vlastných nohách stáť
+keď túžiš po láske z románov a piesní
+Unavený a sám
+snažím sa nájsť svoj osobný raj
+{end_of_verse}
+
+{start_of_chorus label="R2:"}
+Snažím sa aby môj svet za niečo stál
+aj keď nie vždy sa mi to darí
+Snažím sa žiť naplno ako sa dá
+po kúskoch vyberám svoj svet z bonboniéry 
+{end_of_chorus}
+
+{start_of_grid shape="4x4+1" label="B:"}
+|: A . | E . | F#mi . | D . :|
+{end_of_grid}
+
+{start_of_chorus label="R3:"}
+/: Snažím sa aby môj svet za niečo stál
+aj keď nie vždy sa mi to darí
+Snažím sa žiť naplno ako sa dá
+po kúskoch vyberám svoj svet z bonboniéry :/
+{end_of_chorus}
+
+{start_of_grid shape="4x4+1" label="O:"}
+| A . | E . | F#mi . | D . |
+{end_of_grid}

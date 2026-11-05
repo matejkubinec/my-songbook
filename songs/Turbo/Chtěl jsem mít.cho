@@ -1,0 +1,44 @@
+{title: Chtěl jsem mít}
+{artist: Turbo}
+
+{start_of_grid shape="1x1+12" label="I:"}
+| Am |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[C]Chtěl jsem mít to, co chlapi mívaj[Am]
+[C]za sebe, když zpátky se dívaj[Am]
+[F]a když můžou říct, [G]dobře jsem žil[Am]
+Ooooooo hooo
+{end_of_verse}
+
+{start_of_verse: V2:}
+Já jsem však předčasně teď soudě
+vale dal rodný svojí hroudě
+do světa jsem šel, tam kam mě táh kytary tón.
+{end_of_verse}
+
+{start_of_chorus: R1:}
+A tak - [C]chtěl jsem jednou mít[G]
+[Am]krásnej bílej dům[F] [G]
+[C]s krásnou dívkou žít[G]
+[Am]a s ní spoustu dětí mít.[F] [G]
+{end_of_chorus}
+
+{start_of_verse: V3:}
+Čas však mi jak tu pěnu z píva,
+mládí vzal a teď už mi zbývá,
+dál světem se hnát, pro lidi hrát- ó -ó -ó.
+{end_of_verse}
+
+{start_of_chorus: R2:}
+Krásnej dům už mám, zůstal jsem v něm sám,
+já a mých šest strun, téměř prázdnej dům.
+{end_of_chorus}
+
+{start_of_chorus: R3:}
+A tak - chtěl jsem jednou mít krásnej bílej dům,
+s krásnou dívkou žít a s ní spoustu dětí mít.
+Krásnej dům už mám, zůstal jsem v něm sám,
+já a mých šest strun, téměř prázdnej dům.
+{end_of_chorus}

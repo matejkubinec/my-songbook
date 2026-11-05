@@ -1,0 +1,67 @@
+{title: Už mě víc krát neuvidíš}
+{artist: Mandrage}
+{columns: 2}
+
+{start_of_grid shape="2x3" label="I:"}
+| D | E | F#m | A |
+| D | E | F#m | % |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[D]Nebe je[E] černý,[F#m] je půl pátý
+[D]Večeru [E]věrný p[F#m]ůjdem dál
+[D]Všude [E]už končí,[F#m] chvílis' mě[A] bavila
+[D]Já p[E]ozvu [F#m]tě k nám
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[D]Na dveře škrábe[E]j, básně piš [C#m]
+[F#m]Už mě víckrát neuvidíš
+[D]Jak se domů dos[E]taneš? Je rán[A]o
+Tahle noc končí a ty víš
+Že mě víckrát neuvidíš
+[D]Ulicí prázdnou [E]padá déšť   [F#m]
+{end_of_chorus}
+
+{start_of_grid}
+| D | E | F#m | A |
+| D | E | F#m | % |
+{end_of_grid}
+
+{start_of_verse: V2:}
+Něco se stalo, koukám do tmy
+Tebe to vzalo, nemluvíš
+Jen další pokus, zbytečný omyl tvůj
+Připomíná
+{end_of_verse}
+
+{start_of_chorus: R2:}
+/: Na dveře škrábej, básně piš
+Už mě víckrát neuvidíš
+Jak se domů dostaneš? Je ráno
+Tahle noc končí a ty víš
+Že mě víckrát neuvidíš
+Ulicí prázdnou padá déšť :/
+{end_of_chorus}
+
+{start_of_grid label="S:"}
+| D  | E | C#mi | F#mi |
+| D  | E | A    | %    |
+| D  | E | C#mi | F#mi |
+| D  | E | F#m  | %    | 
+{end_of_grid}
+
+{column_break}
+{start_of_chorus: R3:}
+/: Na dveře škrábej, básně piš
+Už mě víckrát neuvidíš
+Jak se domů dostaneš? Je ráno
+Tahle noc končí a ty víš
+Že mě víckrát neuvidíš
+Ulicí prázdnou padá déšť :/
+{end_of_chorus}
+
+{start_of_grid label="O:"}
+| D | E | F#m | A |
+| D | E | F#m | % |
+{end_of_grid}
