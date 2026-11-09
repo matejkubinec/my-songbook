@@ -1,0 +1,50 @@
+{title: Hemeroidy}
+{artist: Desmod}
+
+{start_of_grid shape="5x4" label="I:"}
+| G | C | G . | D . |
+| G | C | G D | G D |
+{end_of_grid}
+
+{start_of_verse: V1:}
+[G]Urči si svoj cieľ [C]a k druhým slušný buď
+[G]vždy maj priamy smer [D]len nikam neuhnúť
+[G]peniaze sú soľ [C]nemať ich to je zlé
+[G]ak dávajú ti[D] nevrav[G] nie [D]
+mysli na bontón maj ego železné
+priateľ buď len s tým s tým čo má peniaze
+hlavne dievčatá vítajte chlapcov snov
+s rozkročenou náručou
+{end_of_verse}
+
+{start_of_chorus: R1:}
+[G]do hláv nám tlačia všelijaké kydy
+človek[C] aby dostal z toho nejaké hemeroidy
+[G]skús povedať[D] nie
+[G]navalia sa im do úst horké sliny
+budeš[C] vyškrtnutý z rodinnej výplatnej listiny
+[G]a to[D] je vraj[G] zlé[D]
+{end_of_chorus}
+
+{start_of_verse: V2:}
+a teraz múdry buď aký máš vlastne byť
+či byť sebou sám či podľa iných žiť
+omyl prírody či pýcha rodičov
+v ústach sucho, nemáš slov
+rozum do hrsti a urob to čo chceš
+na čo všetko máš tak to iba ty vieš
+možno budeš boss a možno taxikár
+no hlavne maj vždy svoju tvár
+{end_of_verse}
+
+{start_of_grid shape="5x4" label="B:"}
+| G | C | G . | D . |
+| G | C | G D | G D |
+{end_of_grid}
+
+{comment: Refrén x3}
+
+{start_of_outro: O:}
+[G]a to je vraj[D] zlé
+[G]a to je vraj[D]
+{end_of_outro}

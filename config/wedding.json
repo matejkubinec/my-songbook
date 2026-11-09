@@ -1,0 +1,35 @@
+{
+    "include": [
+        "settings.json"
+    ],
+    "settings": {"sort": "title"},
+    "contents": [
+        {
+            "fields": [
+                "title"
+            ],
+            "label": "Piesne",
+            "line": "%{title}",
+            "pageno": "%{page}",
+            "fold": false,
+            "omit": false,
+            "sort": "title"
+        }
+    ],
+    "pdf": {
+        "formats": {
+            "title": {
+                "title": [
+                    "",
+                    "%{title}",
+                    ""
+                ],
+                "subtitle": [
+                    "",
+                    "%{capo|Capo %{}}",
+                    ""
+                ]
+            }
+        }
+    }
+}
