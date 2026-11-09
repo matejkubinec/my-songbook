@@ -118,7 +118,7 @@
             "comment": {
                 "description": "plex-mono",
                 "size": 13,
-                "background": "foreground-light"
+                "background": "yellow"
             },
             "comment_italic": {
                 "description": "plex",
